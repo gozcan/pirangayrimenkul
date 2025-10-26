@@ -50,10 +50,18 @@ const KVKK = () => {
                 {t('legal.kvkk.controller.content')}
               </p>
               <div className="bg-slate-50 p-4 rounded-lg">
-                <p className="text-slate-700 font-semibold mb-2">Piran Gayrimenkul Danışmanlık</p>
-                <p className="text-slate-600 text-sm">Adres: Küçük Çamlıca Mah. Libadiye Cad. No:52 Üsküdar/İstanbul</p>
-                <p className="text-slate-600 text-sm">E-posta: info@pirangayrimenkul.com</p>
-                <p className="text-slate-600 text-sm">Telefon: +90 530 123 45 67</p>
+                <p className="text-slate-700 font-semibold mb-2">
+                  Piran Gayrimenkul Danışmanlık
+                </p>
+                <p className="text-slate-600 text-sm">
+                  Adres: Küçük Çamlıca Mah. Libadiye Cad. No:52 Üsküdar/İstanbul
+                </p>
+                <p className="text-slate-600 text-sm">
+                  E-posta: info@pirangayrimenkul.com
+                </p>
+                <p className="text-slate-600 text-sm">
+                  Telefon: +90 530 123 45 67
+                </p>
               </div>
             </div>
 
@@ -106,7 +114,9 @@ const KVKK = () => {
                 {t('legal.kvkk.application.content')}
               </p>
               <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
-                <p className="text-slate-700 font-semibold mb-2">{t('legal.kvkk.application.methods')}</p>
+                <p className="text-slate-700 font-semibold mb-2">
+                  {t('legal.kvkk.application.methods')}
+                </p>
                 <ul className="list-disc list-inside space-y-1 text-slate-600 text-sm">
                   <li>{t('legal.kvkk.application.method1')}</li>
                   <li>{t('legal.kvkk.application.method2')}</li>
