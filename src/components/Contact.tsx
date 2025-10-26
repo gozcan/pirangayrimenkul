@@ -45,8 +45,8 @@ const Contact: React.FC = () => {
     },
     {
       title: t('contact.info.email'),
-      content: 'info@ekutas.com',
-      href: 'mailto:info@ekutas.com',
+      content: 'info@pirangayrimenkul.com',
+      href: 'mailto:info@pirangayrimenkul.com',
       gradient: 'from-purple-500 to-pink-500',
     },
     {

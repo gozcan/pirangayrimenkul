@@ -122,10 +122,10 @@ const Footer: React.FC = () => {
                 +90 850 346 46 52
               </a>
               <a
-                href="mailto:info@ekutas.com"
+                href="mailto:info@pirangayrimenkul.com"
                 className="block text-slate-400 hover:text-blue-400 transition-colors duration-200 text-sm"
               >
-                info@ekutas.com
+                info@pirangayrimenkul.com
               </a>
             </div>
           </motion.div>
