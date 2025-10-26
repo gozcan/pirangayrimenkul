@@ -497,5 +497,137 @@
     "viewAll": "View All",
     "close": "Close",
     "open": "Open"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": {
+        "title": "Introduction",
+        "content": "As Piran Real Estate Consultancy, we consider protecting the privacy of our customers' personal data as one of our top priorities. This privacy policy explains how your personal data is collected, used, and protected."
+      },
+      "collection": {
+        "title": "Information Collected",
+        "item1": "Name, surname, and contact information",
+        "item2": "Real estate preferences and investment goals",
+        "item3": "Communication history and request information",
+        "item4": "Website usage data and cookies"
+      },
+      "usage": {
+        "title": "Use of Information",
+        "item1": "To provide you with better service and respond to your requests",
+        "item2": "To inform you about the real estate market",
+        "item3": "To improve and personalize our service quality",
+        "item4": "To fulfill our legal obligations"
+      },
+      "protection": {
+        "title": "Data Security",
+        "content": "Your personal data is protected with industry-standard security measures. Your data is stored using encryption technologies and protected against unauthorized access."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "content": "Our website uses cookies to improve user experience. You can manage or disable cookies from your browser settings."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "item1": "Request access to your personal data",
+        "item2": "Request correction of inaccurate data",
+        "item3": "Request deletion of data under certain conditions",
+        "item4": "Object to data processing activities"
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "You can contact us if you have any questions about our privacy policy."
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By using Piran Real Estate Consultancy website and services, you are deemed to have accepted the following terms of use. If you do not accept the terms, please do not use our services."
+      },
+      "services": {
+        "title": "Services Offered",
+        "content": "Our company offers the following services:",
+        "item1": "Real estate buying and selling consultancy",
+        "item2": "Investment evaluation and market analysis",
+        "item3": "Portfolio management and strategy development",
+        "item4": "Professional real estate services throughout Istanbul"
+      },
+      "obligations": {
+        "title": "User Obligations",
+        "content": "When using our website:",
+        "item1": "You must provide accurate and up-to-date information",
+        "item2": "You must comply with laws and regulations",
+        "item3": "You must respect the rights of others",
+        "item4": "You must not misuse the system"
+      },
+      "intellectual": {
+        "title": "Intellectual Property",
+        "content": "All content, designs, and materials on the website are the property of Piran Real Estate Consultancy and are protected by copyright laws. Unauthorized use is prohibited."
+      },
+      "limitation": {
+        "title": "Limitation of Liability",
+        "content": "Our services are provided 'as is'. We are not responsible for market conditions and changes in real estate values. Your decisions are your own responsibility."
+      },
+      "termination": {
+        "title": "Termination",
+        "content": "Our company reserves the right to terminate access to services for users who violate these terms at any time."
+      },
+      "law": {
+        "title": "Governing Law",
+        "content": "These terms are subject to the laws of the Republic of Turkey. Disputes will be resolved in Istanbul courts."
+      }
+    },
+    "kvkk": {
+      "title": "KVKK Disclosure Text",
+      "intro": {
+        "title": "Introduction",
+        "content": "In accordance with the Personal Data Protection Law No. 6698 ('KVKK'), we would like to inform you about the processing of your personal data."
+      },
+      "controller": {
+        "title": "Data Controller",
+        "content": "Your personal data will be processed by Piran Real Estate Consultancy as the data controller within the scope of the following explanations."
+      },
+      "processing": {
+        "title": "Processing Principles",
+        "content": "Your personal data is processed in accordance with the following principles:",
+        "item1": "Compliance with law and honesty rules",
+        "item2": "Being accurate and up-to-date when necessary",
+        "item3": "Processing for specific, explicit and legitimate purposes",
+        "item4": "Being relevant, limited and proportionate to the purpose",
+        "item5": "Being kept for the period stipulated in the relevant legislation or necessary for the purpose for which they are processed"
+      },
+      "purposes": {
+        "title": "Processing Purposes",
+        "content": "Your personal data is processed for the following purposes:",
+        "item1": "Providing real estate consultancy services",
+        "item2": "Customer relationship management and communication",
+        "item3": "Improving and analyzing service quality",
+        "item4": "Fulfilling legal obligations"
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "Your rights under Article 11 of KVKK:",
+        "item1": "Learn whether your personal data is being processed",
+        "item2": "Request information if your personal data has been processed",
+        "item3": "Learn the purpose of processing personal data and whether they are used in accordance with their purpose",
+        "item4": "Know the third parties to whom personal data is transferred domestically or abroad",
+        "item5": "Request correction if personal data is incomplete or incorrectly processed",
+        "item6": "Request deletion or destruction of personal data within the framework of the conditions stipulated in Article 7 of KVKK",
+        "item7": "Request notification of correction, deletion and destruction to third parties to whom personal data has been transferred",
+        "item8": "Object to the occurrence of a result against you by analyzing the processed data exclusively through automated systems"
+      },
+      "application": {
+        "title": "Application Methods",
+        "content": "You can apply using the following methods to exercise your rights:",
+        "item1": "In writing to our company address",
+        "item2": "To info@pirangayrimenkul.com with registered e-mail (KEP) address, secure electronic signature or mobile signature",
+        "item3": "In person to our company address"
+      },
+      "security": {
+        "title": "Security Measures",
+        "content": "Necessary technical and administrative measures are taken for the security of your personal data. Your data is protected against unauthorized access, loss or alteration."
+      }
+    }
   }
 }

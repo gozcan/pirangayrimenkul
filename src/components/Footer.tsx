@@ -2,7 +2,11 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
-const Footer: React.FC = () => {
+interface FooterProps {
+  onNavigate?: (page: 'home' | 'privacy' | 'terms' | 'kvkk') => void;
+}
+
+const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   const { t } = useTranslation('common');
 
   const quickLinks = [
@@ -23,7 +27,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="relative bg-slate-900 text-white overflow-hidden">
       {/* Wave Divider */}
-      <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
+      <div className="absolute top-0 left-0 w-full overflow-hidden leading-0">
         <svg
           className="relative block w-full h-16"
           viewBox="0 0 1200 120"
@@ -139,24 +143,24 @@ const Footer: React.FC = () => {
               {t('footer.rights')}
             </p>
             <div className="flex gap-6 text-sm">
-              <a
-                href="#"
+              <button
+                onClick={() => onNavigate?.('privacy')}
                 className="text-slate-400 hover:text-white transition-colors duration-200"
               >
-                Gizlilik Politikası
-              </a>
-              <a
-                href="#"
+                {t('legal.privacy.title')}
+              </button>
+              <button
+                onClick={() => onNavigate?.('terms')}
                 className="text-slate-400 hover:text-white transition-colors duration-200"
               >
-                Kullanım Şartları
-              </a>
-              <a
-                href="#"
+                {t('legal.terms.title')}
+              </button>
+              <button
+                onClick={() => onNavigate?.('kvkk')}
                 className="text-slate-400 hover:text-white transition-colors duration-200"
               >
-                KVKK
-              </a>
+                {t('legal.kvkk.title')}
+              </button>
             </div>
           </div>
         </div>

@@ -497,5 +497,137 @@
     "viewAll": "Tümünü Gör",
     "close": "Kapat",
     "open": "Aç"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "intro": {
+        "title": "Giriş",
+        "content": "Piran Gayrimenkul Danışmanlık olarak, müşterilerimizin kişisel verilerinin gizliliğini korumayı en önemli önceliklerimiz arasında görüyoruz. Bu gizlilik politikası, kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır."
+      },
+      "collection": {
+        "title": "Toplanan Bilgiler",
+        "item1": "Ad, soyad ve iletişim bilgileri",
+        "item2": "Gayrimenkul tercihleri ve yatırım hedefleri",
+        "item3": "İletişim geçmişi ve talep bilgileri",
+        "item4": "Web sitesi kullanım verileri ve çerezler"
+      },
+      "usage": {
+        "title": "Bilgilerin Kullanımı",
+        "item1": "Size daha iyi hizmet sunmak ve taleplerinizie yanıt vermek",
+        "item2": "Gayrimenkul piyasası hakkında bilgilendirme yapmak",
+        "item3": "Hizmet kalitemizi geliştirmek ve kişiselleştirmek",
+        "item4": "Yasal yükümlülüklerimizi yerine getirmek"
+      },
+      "protection": {
+        "title": "Veri Güvenliği",
+        "content": "Kişisel verileriniz, endüstri standardı güvenlik önlemleri ile korunmaktadır. Verileriniz şifreleme teknolojileri kullanılarak saklanır ve yetkisiz erişime karşı korunur."
+      },
+      "cookies": {
+        "title": "Çerezler",
+        "content": "Web sitemiz, kullanıcı deneyimini iyileştirmek için çerezler kullanmaktadır. Çerezleri tarayıcı ayarlarınızdan yönetebilir veya devre dışı bırakabilirsiniz."
+      },
+      "rights": {
+        "title": "Haklarınız",
+        "item1": "Kişisel verilerinize erişim talep etme",
+        "item2": "Hatalı verilerin düzeltilmesini isteme",
+        "item3": "Belirli koşullarda verilerin silinmesini talep etme",
+        "item4": "Veri işleme faaliyetlerine itiraz etme"
+      },
+      "contact": {
+        "title": "İletişim",
+        "content": "Gizlilik politikamız hakkında sorularınız için bizimle iletişime geçebilirsiniz."
+      }
+    },
+    "terms": {
+      "title": "Kullanım Şartları",
+      "acceptance": {
+        "title": "Şartların Kabulü",
+        "content": "Piran Gayrimenkul Danışmanlık web sitesini ve hizmetlerini kullanarak, aşağıdaki kullanım şartlarını kabul etmiş sayılırsınız. Şartları kabul etmiyorsanız, lütfen hizmetlerimizi kullanmayınız."
+      },
+      "services": {
+        "title": "Sunulan Hizmetler",
+        "content": "Şirketimiz aşağıdaki hizmetleri sunmaktadır:",
+        "item1": "Gayrimenkul alım-satım danışmanlığı",
+        "item2": "Yatırım değerlendirmesi ve piyasa analizi",
+        "item3": "Portföy yönetimi ve strateji geliştirme",
+        "item4": "İstanbul genelinde profesyonel emlak hizmetleri"
+      },
+      "obligations": {
+        "title": "Kullanıcı Yükümlülükleri",
+        "content": "Web sitemizi kullanırken:",
+        "item1": "Doğru ve güncel bilgi sağlamalısınız",
+        "item2": "Yasalara ve düzenlemelere uymalısınız",
+        "item3": "Başkalarının haklarına saygı göstermelisiniz",
+        "item4": "Sistemi kötüye kullanmamalısınız"
+      },
+      "intellectual": {
+        "title": "Fikri Mülkiyet",
+        "content": "Web sitesindeki tüm içerik, tasarım ve materyaller Piran Gayrimenkul Danışmanlık'ın mülkiyetindedir ve telif hakkı yasaları ile korunmaktadır. İzinsiz kullanım yasaktır."
+      },
+      "limitation": {
+        "title": "Sorumluluk Sınırlaması",
+        "content": "Hizmetlerimiz 'olduğu gibi' sunulmaktadır. Piyasa koşulları ve gayrimenkul değerlerindeki değişikliklerden sorumlu değiliz. Kararlarınız kendi sorumluluğunuzdadır."
+      },
+      "termination": {
+        "title": "Fesih",
+        "content": "Şirketimiz, bu şartları ihlal eden kullanıcıların hizmetlere erişimini herhangi bir zamanda sonlandırma hakkını saklı tutar."
+      },
+      "law": {
+        "title": "Geçerli Hukuk",
+        "content": "Bu şartlar Türkiye Cumhuriyeti yasalarına tabidir. Uyuşmazlıklar İstanbul mahkemelerinde çözümlenecektir."
+      }
+    },
+    "kvkk": {
+      "title": "KVKK Aydınlatma Metni",
+      "intro": {
+        "title": "Giriş",
+        "content": "6698 sayılı Kişisel Verilerin Korunması Kanunu ('KVKK') uyarınca, kişisel verilerinizin işlenmesine ilişkin olarak sizleri bilgilendirmek isteriz."
+      },
+      "controller": {
+        "title": "Veri Sorumlusu",
+        "content": "Kişisel verileriniz, veri sorumlusu sıfatıyla Piran Gayrimenkul Danışmanlık tarafından aşağıdaki açıklamalar kapsamında işlenecektir."
+      },
+      "processing": {
+        "title": "İşleme İlkeleri",
+        "content": "Kişisel verileriniz aşağıdaki ilkelere uygun olarak işlenmektedir:",
+        "item1": "Hukuka ve dürüstlük kurallarına uygun olma",
+        "item2": "Doğru ve gerektiğinde güncel olma",
+        "item3": "Belirli, açık ve meşru amaçlarla işlenme",
+        "item4": "İşlendikleri amaçla bağlantılı, sınırlı ve ölçülü olma",
+        "item5": "İlgili mevzuatta öngörülen veya işlendikleri amaç için gerekli olan süre kadar muhafaza edilme"
+      },
+      "purposes": {
+        "title": "İşleme Amaçları",
+        "content": "Kişisel verileriniz aşağıdaki amaçlarla işlenmektedir:",
+        "item1": "Gayrimenkul danışmanlık hizmetlerinin sunulması",
+        "item2": "Müşteri ilişkileri yönetimi ve iletişim",
+        "item3": "Hizmet kalitesinin geliştirilmesi ve analiz",
+        "item4": "Yasal yükümlülüklerin yerine getirilmesi"
+      },
+      "rights": {
+        "title": "Haklarınız",
+        "content": "KVKK'nın 11. maddesi uyarınca haklarınız:",
+        "item1": "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
+        "item2": "Kişisel verileriniz işlenmişse buna ilişkin bilgi talep etme",
+        "item3": "Kişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme",
+        "item4": "Yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme",
+        "item5": "Kişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme",
+        "item6": "KVKK'nın 7. maddesinde öngörülen şartlar çerçevesinde kişisel verilerin silinmesini veya yok edilmesini isteme",
+        "item7": "Düzeltme, silme ve yok edilme işlemlerinin, kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme",
+        "item8": "İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme"
+      },
+      "application": {
+        "title": "Başvuru Yöntemleri",
+        "content": "Haklarınızı kullanmak için aşağıdaki yöntemlerle başvurabilirsiniz:",
+        "item1": "Yazılı olarak şirket adresimize",
+        "item2": "Kayıtlı elektronik posta (KEP) adresi, güvenli elektronik imza veya mobil imza ile info@pirangayrimenkul.com adresine",
+        "item3": "Şahsen başvuru ile şirket adresimize"
+      },
+      "security": {
+        "title": "Güvenlik Önlemleri",
+        "content": "Kişisel verilerinizin güvenliği için gerekli teknik ve idari tedbirler alınmaktadır. Verileriniz yetkisiz erişim, kayıp veya değişikliğe karşı korunmaktadır."
+      }
+    }
   }
 }
