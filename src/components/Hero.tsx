@@ -718,15 +718,21 @@ const HeroPremium = () => {
               {/* Data Point Labels (2D Overlay) */}
               <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute top-1/4 right-1/4 backdrop-blur-md bg-blue-500/20 px-4 py-2 rounded-lg border border-blue-400/30">
-                  <p className="text-xs text-blue-200">{t('hero.dataPoints.marketAnalysis')}</p>
+                  <p className="text-xs text-blue-200">
+                    {t('hero.dataPoints.marketAnalysis')}
+                  </p>
                   <p className="text-lg font-bold text-white">2000+</p>
                 </div>
                 <div className="absolute bottom-1/3 left-1/4 backdrop-blur-md bg-purple-500/20 px-4 py-2 rounded-lg border border-purple-400/30">
-                  <p className="text-xs text-purple-200">{t('hero.dataPoints.roiIncrease')}</p>
+                  <p className="text-xs text-purple-200">
+                    {t('hero.dataPoints.roiIncrease')}
+                  </p>
                   <p className="text-lg font-bold text-white">%15</p>
                 </div>
                 <div className="absolute top-1/2 right-1/3 backdrop-blur-md bg-amber-500/20 px-4 py-2 rounded-lg border border-amber-400/30">
-                  <p className="text-xs text-amber-200">{t('hero.dataPoints.successRate')}</p>
+                  <p className="text-xs text-amber-200">
+                    {t('hero.dataPoints.successRate')}
+                  </p>
                   <p className="text-lg font-bold text-white">%98</p>
                 </div>
               </div>

@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 const getStepIcon = (
   serviceId: string,
   stepIndex: number,
-  gradient: string
+  _gradient: string
 ) => {
   const iconClass = 'w-12 h-12';
 

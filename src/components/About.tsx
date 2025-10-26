@@ -198,7 +198,9 @@ const About: React.FC = () => {
                   {t('about.badges.coverage')}
                 </span>
               </div>
-              <p className="text-lg font-bold text-emerald-800 mt-1">{t('about.badges.coverageValue')}</p>
+              <p className="text-lg font-bold text-emerald-800 mt-1">
+                {t('about.badges.coverageValue')}
+              </p>
             </motion.div>
 
             <motion.div
@@ -214,7 +216,9 @@ const About: React.FC = () => {
                   {t('about.badges.experience')}
                 </span>
               </div>
-              <p className="text-lg font-bold text-amber-800 mt-1">{t('about.badges.experienceValue')}</p>
+              <p className="text-lg font-bold text-amber-800 mt-1">
+                {t('about.badges.experienceValue')}
+              </p>
             </motion.div>
           </motion.div>
         </div>

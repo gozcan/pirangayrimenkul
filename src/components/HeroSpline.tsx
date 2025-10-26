@@ -87,7 +87,7 @@ function CinematicCamera() {
   const { camera } = useThree();
   const [time, setTime] = useState(0);
 
-  useFrame((state, delta) => {
+  useFrame((_state, delta) => {
     setTime((t) => t + delta * 0.2);
 
     // Yavaş sinüzoidal hareket - sağa sola sallanma
