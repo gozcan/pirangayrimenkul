@@ -771,9 +771,15 @@ const HeroPremium = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20 cursor-pointer"
-          onClick={() =>
-            window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })
-          }
+          onClick={() => {
+            const servicesSection = document.getElementById('services');
+            if (servicesSection) {
+              servicesSection.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+              });
+            }
+          }}
         >
           <div className="flex flex-col items-center gap-2 animate-bounce">
             <p className="text-xs text-blue-200/70 uppercase tracking-wider">
