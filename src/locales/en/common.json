@@ -1,0 +1,501 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "serviceDetails": "Service Details",
+    "coverage": "Coverage Area",
+    "process": "How We Work",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "badge": "Leader in Real Estate Consultancy",
+    "title": "Your Trusted Solution Partner in Real Estate Consultancy",
+    "subtitle": "Professional consultancy services in urban transformation, land-property valuation, and construction projects",
+    "cta": {
+      "primary": "Start Your Project",
+      "secondary": "Discover Our Services",
+      "consultation": "Request Consultation",
+      "learnMore": "Learn More"
+    },
+    "features": {
+      "1": "Urban Transformation",
+      "2": "Real Estate Valuation",
+      "3": "Construction Consultancy",
+      "4": "Corporate Consultancy"
+    },
+    "stats": {
+      "projects": "Completed Projects",
+      "clients": "Happy Clients",
+      "years": "Years of Experience",
+      "value": "Project Value"
+    },
+    "dataPoints": {
+      "marketAnalysis": "Market Analysis",
+      "roiIncrease": "ROI Increase",
+      "successRate": "Success Rate"
+    },
+    "sphereData": {
+      "marketAnalysis": "Market Analysis",
+      "investmentStrategy": "Investment Strategy",
+      "riskAssessment": "Risk Assessment",
+      "portfolioManagement": "Portfolio Management",
+      "trendForecast": "Trend Forecast"
+    },
+    "cardValue": "Project Value",
+    "awardTitle": "Award-Winning Projects",
+    "awardDesc": "Our recognized achievements in the industry"
+  },
+  "header": {
+    "cta": "Get Free Quote"
+  },
+  "heroPremium": {
+    "title": {
+      "line1": "Piran",
+      "line2": "Real Estate",
+      "line3": "Consultancy"
+    },
+    "subtitle": "Maximize your real estate investments with data-driven analysis, strategic planning, and expert consultancy.",
+    "cta": {
+      "primary": "Free Analysis",
+      "secondary": "Contact Us"
+    },
+    "services": {
+      "analysis": {
+        "title": "Market Analysis",
+        "description": "In-depth data analysis and trend reports on Istanbul's real estate market."
+      },
+      "consulting": {
+        "title": "Investment Consultancy",
+        "description": "Strategic portfolio management and maximum return-focused investment planning."
+      },
+      "risk": {
+        "title": "Risk Management",
+        "description": "Comprehensive risk assessment and safe investment strategies."
+      }
+    },
+    "stats": {
+      "completedProjects": "Completed Projects",
+      "satisfaction": "Client Satisfaction",
+      "experience": "Years of Experience",
+      "projectValue": "Project Value"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer comprehensive consultancy services in the real estate sector",
+    "urbanTransformation": {
+      "title": "Urban Transformation Consultancy",
+      "description": "Expert consultancy in island or plot-based transformation projects for fair distribution and value assessment processes"
+    },
+    "realEstate": {
+      "title": "Real Estate Evaluation",
+      "description": "Land, plot, and building evaluation, highest and best use analysis, and investment consultancy services"
+    },
+    "construction": {
+      "title": "Construction Consultancy",
+      "description": "Integrated project management and construction services through our group construction companies"
+    },
+    "corporate": {
+      "title": "Corporate Consultancy",
+      "description": "Specialized real estate portfolio management and strategic investment consultancy for corporate clients"
+    }
+  },
+  "serviceDetails": {
+    "title": "Our Service Processes",
+    "subtitle": "Detailed Process Guide",
+    "description": "Transparent and detailed process steps for each of our services",
+    "services": {
+      "urbanTransformation": {
+        "title": "Urban Transformation",
+        "subtitle": "Fair distribution and professional consultancy for stakeholders",
+        "description": "Fair distribution and valuation consultancy for stakeholders in urban transformation projects",
+        "steps": {
+          "analysis": {
+            "title": "Initial Assessment",
+            "description": "We conduct technical and legal analysis of your property"
+          },
+          "planning": {
+            "title": "Project Planning",
+            "description": "We create detailed planning for the transformation process"
+          },
+          "valuation": {
+            "title": "Value Determination",
+            "description": "We determine the true value of your property"
+          },
+          "negotiation": {
+            "title": "Negotiation Process",
+            "description": "We conduct professional negotiations on behalf of stakeholders"
+          },
+          "legal": {
+            "title": "Legal Procedures",
+            "description": "We monitor and manage all legal processes"
+          },
+          "completion": {
+            "title": "Project Completion",
+            "description": "We're with you until the delivery of your new property"
+          }
+        }
+      },
+      "valuation": {
+        "title": "Real Estate Valuation",
+        "subtitle": "Professional service with CMB-licensed valuation reports",
+        "steps": {
+          "contact": {
+            "title": "Initial Meeting",
+            "description": "We listen to your needs and expectations"
+          },
+          "research": {
+            "title": "Market Research",
+            "description": "We conduct regional market analysis"
+          },
+          "inspection": {
+            "title": "Physical Inspection",
+            "description": "We perform detailed on-site examination"
+          },
+          "report": {
+            "title": "Valuation Report",
+            "description": "We prepare CMB-licensed reports"
+          },
+          "consultation": {
+            "title": "Investment Consultation",
+            "description": "We provide return and risk analysis"
+          },
+          "followup": {
+            "title": "Follow-up Service",
+            "description": "We monitor market changes"
+          }
+        }
+      },
+      "construction": {
+        "title": "Construction Consultancy",
+        "subtitle": "All processes from project management to construction supervision",
+        "steps": {
+          "site": {
+            "title": "Site Selection",
+            "description": "We analyze location and ground conditions"
+          },
+          "design": {
+            "title": "Project Development",
+            "description": "We prepare concept and preliminary projects"
+          },
+          "cost": {
+            "title": "Cost Calculation",
+            "description": "Detailed quantity surveying and price analysis"
+          },
+          "contractor": {
+            "title": "Contractor Selection",
+            "description": "Reference check and evaluation"
+          },
+          "supervision": {
+            "title": "Construction Supervision",
+            "description": "Quality control and reporting"
+          },
+          "delivery": {
+            "title": "Delivery Process",
+            "description": "Final inspection and documentation"
+          }
+        }
+      },
+      "investment": {
+        "title": "Investment Consultancy",
+        "subtitle": "We identify the most profitable investment opportunities for you",
+        "steps": {
+          "analysis": {
+            "title": "Needs Analysis",
+            "description": "We determine your investment goals"
+          },
+          "portfolio": {
+            "title": "Portfolio Review",
+            "description": "We evaluate your existing assets"
+          },
+          "strategy": {
+            "title": "Strategy Development",
+            "description": "We create a customized investment strategy"
+          },
+          "plan": {
+            "title": "Action Plan",
+            "description": "We prepare a step-by-step action plan"
+          },
+          "execution": {
+            "title": "Implementation & Monitoring",
+            "description": "Process management and coordination"
+          },
+          "performance": {
+            "title": "Performance Report",
+            "description": "Result analysis and feedback"
+          }
+        }
+      }
+    }
+  },
+  "process": {
+    "title": "How We Work?",
+    "subtitle": "Professional consultancy process in 6 steps",
+    "steps": {
+      "contact": {
+        "title": "Contact",
+        "description": "Initial meeting and needs analysis",
+        "details": [
+          "Free preliminary meeting",
+          "Needs analysis",
+          "Service scope determination"
+        ]
+      },
+      "analysis": {
+        "title": "Analysis",
+        "description": "Detailed examination and evaluation",
+        "details": [
+          "Field work",
+          "Technical analysis",
+          "Market research"
+        ]
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "Creating a strategic roadmap",
+        "details": [
+          "Action plan preparation",
+          "Timeline",
+          "Budget planning"
+        ]
+      },
+      "implementation": {
+        "title": "Implementation",
+        "description": "Bringing the project to life",
+        "details": [
+          "Project management",
+          "Process tracking",
+          "Quality control"
+        ]
+      },
+      "monitoring": {
+        "title": "Monitoring",
+        "description": "Continuous monitoring and reporting",
+        "details": [
+          "Regular reporting",
+          "Performance analysis",
+          "Revision suggestions"
+        ]
+      },
+      "completion": {
+        "title": "Delivery",
+        "description": "Successful project completion",
+        "details": [
+          "Final inspection",
+          "Document delivery",
+          "After-sales support"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Let's Start Your Project Now",
+      "description": "Our expert team is ready to create customized solutions for you",
+      "button": "Get Free Consultation",
+      "callNow": "Call Now"
+    }
+  },
+  "coverage": {
+    "title": "Our Coverage Area",
+    "subtitle": "Professional real estate consulting services in 33 districts of Istanbul",
+    "badge": "Service Across Istanbul",
+    "stats": {
+      "projects": {
+        "value": "2000+",
+        "label": "Completed Projects"
+      },
+      "satisfaction": {
+        "value": "98%",
+        "label": "Customer Satisfaction"
+      },
+      "experience": {
+        "value": "20+",
+        "label": "Years of Experience"
+      },
+      "clients": {
+        "value": "500+",
+        "label": "Happy Clients"
+      }
+    },
+    "zones": {
+      "european": "European Side",
+      "asian": "Asian Side",
+      "europeanCount": "23 Districts Coverage",
+      "asianCount": "10 Districts Coverage"
+    },
+    "cta": {
+      "title": "Reliable Service Across Istanbul",
+      "subtitle": "No matter which district you're in, our professional team is here for your real estate needs",
+      "support": "24/7 Support",
+      "evaluation": "Free Evaluation",
+      "appointment": "Instant Appointment"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to your questions",
+    "contactCta": {
+      "question": "Didn't find the answer to your question?",
+      "button": "Contact Us"
+    },
+    "categories": {
+      "urbanTransformation": {
+        "title": "Urban Transformation",
+        "questions": [
+          {
+            "q": "How long does the urban transformation process take?",
+            "a": "The urban transformation process typically takes 3-5 years to complete. This duration may vary depending on the project size, number of stakeholders, and municipal approval processes."
+          },
+          {
+            "q": "Who covers the costs in urban transformation?",
+            "a": "Generally, the contractor company covers all project costs. Stakeholders typically do not make any payments and receive ownership of their new units."
+          },
+          {
+            "q": "How are rights determined in urban transformation?",
+            "a": "Rights are determined based on the value, location, and square meters of the existing property. A fair assessment is made by professional valuation firms."
+          }
+        ]
+      },
+      "valuation": {
+        "title": "Real Estate Valuation",
+        "questions": [
+          {
+            "q": "How long does it take to prepare a property valuation report?",
+            "a": "A standard property valuation report is delivered within 3-7 business days. Expedited valuation service is also available for urgent cases."
+          },
+          {
+            "q": "Where are valuation reports valid?",
+            "a": "Our CMB-licensed valuation reports are valid at all banks, courts, and official institutions. They can be used for loans, mortgages, sales, and legal transactions."
+          },
+          {
+            "q": "How is the valuation fee determined?",
+            "a": "Pricing varies according to the type, size, and location of the property. You can have a free preliminary meeting for detailed information."
+          }
+        ]
+      },
+      "construction": {
+        "title": "Construction Consultancy",
+        "questions": [
+          {
+            "q": "What does construction consultancy service cover?",
+            "a": "It covers project management, quality control, cost optimization, time planning, and technical supervision services."
+          },
+          {
+            "q": "What types of projects do you work on?",
+            "a": "We provide consultancy services for residential, commercial, industrial, and mixed-use projects."
+          }
+        ]
+      },
+      "general": {
+        "title": "General Questions",
+        "questions": [
+          {
+            "q": "How are consultancy fees determined?",
+            "a": "Fees are determined based on project scope, duration, and complexity. The initial meeting and preliminary assessment are free."
+          },
+          {
+            "q": "Which regions do you serve?",
+            "a": "We actively serve in all districts of Istanbul. Special projects in other cities can also be considered."
+          },
+          {
+            "q": "Do you provide online consultancy service?",
+            "a": "Yes, we also offer remote consultancy service through online meetings and digital documents."
+          }
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "About Piran Real Estate",
+    "description": "We serve you with our professional team specialized in urban transformation and providing consultancy to corporate companies on land, property, and building matters.",
+    "experience": "Years of Experience",
+    "projects": "Completed Projects",
+    "clients": "Happy Clients",
+    "successRate": "Success Rate",
+    "features": {
+      "team": {
+        "title": "Professional Team",
+        "description": "Our staff consists of experts, experienced and dynamic professionals in the sector"
+      },
+      "quality": {
+        "title": "Quality Assurance",
+        "description": "We prioritize quality and reliability in our business processes"
+      },
+      "focus": {
+        "title": "Goal-Oriented",
+        "description": "Goal-focused work approach ensuring customer satisfaction"
+      },
+      "innovation": {
+        "title": "Innovative Solutions",
+        "description": "We apply the latest technology and methods in the sector"
+      }
+    },
+    "stats": {
+      "activeProjects": "Active Projects",
+      "successRate": "Success Rate"
+    },
+    "tagline": {
+      "line1": "In Real Estate Consultancy",
+      "line2": "Your Trusted Solution Partner"
+    },
+    "badges": {
+      "projects": "Projects",
+      "coverage": "Coverage",
+      "experience": "Experience",
+      "projectsValue": "500+ Projects",
+      "coverageValue": "35 Districts",
+      "experienceValue": "20+ Years"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Contact us for detailed information about our real estate consultancy services",
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "addressContent": "Küçük Çamlıca, Libadiye St. No:52 Üsküdar/Istanbul",
+      "hours": "Working Hours",
+      "mapView": "Map View",
+      "location": "Istanbul, Turkey"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again.",
+      "subjects": {
+        "urbanTransformation": "Urban Transformation",
+        "valuation": "Real Estate Valuation",
+        "construction": "Construction Consultancy",
+        "investment": "Investment Consultancy",
+        "other": "Other"
+      }
+    }
+  },
+  "footer": {
+    "description": "Your trusted solution partner in the real estate sector. We are here with our expert team in urban transformation and consultancy services.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact Information",
+    "rights": "All rights reserved.",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getQuote": "Get Quote",
+    "viewAll": "View All",
+    "close": "Close",
+    "open": "Open"
+  }
+}

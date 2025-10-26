@@ -1,0 +1,501 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetlerimiz",
+    "projects": "Projelerimiz",
+    "contact": "İletişim",
+    "serviceDetails": "Hizmet Detayları",
+    "coverage": "Çalışma Alanımız",
+    "process": "Nasıl Çalışıyoruz",
+    "faq": "Sıkça Sorulan Sorular"
+  },
+  "hero": {
+    "badge": "Gayrimenkul Danışmanlığında Lider",
+    "title": "Gayrimenkul Danışmanlığında Güvenilir Çözüm Ortağınız",
+    "subtitle": "Kentsel dönüşüm, arsa-arazi değerlendirme ve inşaat projelerinde profesyonel danışmanlık hizmetleri",
+    "cta": {
+      "primary": "Projenizi Başlatın",
+      "secondary": "Hizmetlerimizi Keşfedin",
+      "consultation": "Danışmanlık Talep Et",
+      "learnMore": "Daha Fazla Bilgi"
+    },
+    "features": {
+      "1": "Kentsel Dönüşüm",
+      "2": "Gayrimenkul Değerleme",
+      "3": "İnşaat Danışmanlığı",
+      "4": "Kurumsal Danışmanlık"
+    },
+    "stats": {
+      "projects": "Tamamlanan Proje",
+      "clients": "Mutlu Müşteri",
+      "years": "Yıllık Tecrübe",
+      "value": "Proje Değeri"
+    },
+    "dataPoints": {
+      "marketAnalysis": "Piyasa Analizi",
+      "roiIncrease": "ROI Artışı",
+      "successRate": "Başarı Oranı"
+    },
+    "sphereData": {
+      "marketAnalysis": "Piyasa Analizi",
+      "investmentStrategy": "Yatırım Stratejisi",
+      "riskAssessment": "Risk Değerlendirme",
+      "portfolioManagement": "Portföy Yönetimi",
+      "trendForecast": "Trend Tahmini"
+    },
+    "cardValue": "Proje Değeri",
+    "awardTitle": "Ödüllü Projeler",
+    "awardDesc": "Sektörde tanınan başarılarımız"
+  },
+  "header": {
+    "cta": "Ücretsiz Teklif Alın"
+  },
+  "heroPremium": {
+    "title": {
+      "line1": "Piran",
+      "line2": "Gayrimenkul",
+      "line3": "Danışmanlık"
+    },
+    "subtitle": "Veri odaklı analiz, stratejik planlama ve uzman danışmanlık ile gayrimenkul yatırımlarınızı maksimize edin.",
+    "cta": {
+      "primary": "Ücretsiz Analiz",
+      "secondary": "İletişime Geç"
+    },
+    "services": {
+      "analysis": {
+        "title": "Piyasa Analizi",
+        "description": "İstanbul gayrimenkul piyasasında derinlemesine veri analizi ve trend raporları."
+      },
+      "consulting": {
+        "title": "Yatırım Danışmanlığı",
+        "description": "Stratejik portföy yönetimi ve maksimum getiri odaklı yatırım planlaması."
+      },
+      "risk": {
+        "title": "Risk Yönetimi",
+        "description": "Kapsamlı risk değerlendirmesi ve güvenli yatırım stratejileri."
+      }
+    },
+    "stats": {
+      "completedProjects": "Tamamlanan Proje",
+      "satisfaction": "Müşteri Memnuniyeti",
+      "experience": "Yıl Deneyim",
+      "projectValue": "Proje Değeri"
+    }
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Gayrimenkul sektöründe geniş kapsamlı danışmanlık hizmetleri sunuyoruz",
+    "urbanTransformation": {
+      "title": "Kentsel Dönüşüm Danışmanlığı",
+      "description": "Ada veya parsel bazında dönüşüm projelerinde şerefiyelendirme ve hak sahiplerine adil paylaşım süreçlerinde uzman danışmanlık"
+    },
+    "realEstate": {
+      "title": "Gayrimenkul Değerlendirme",
+      "description": "Arsa, arazi ve bina değerlendirmesi, en verimli kullanım analizleri ve yatırım danışmanlığı hizmetleri"
+    },
+    "construction": {
+      "title": "İnşaat Danışmanlığı",
+      "description": "Grup şirketlerimiz bünyesindeki inşaat firmaları ile entegre proje yönetimi ve inşaat hizmetleri"
+    },
+    "corporate": {
+      "title": "Kurumsal Danışmanlık",
+      "description": "Kurumsal firmalara özel gayrimenkul portföy yönetimi ve stratejik yatırım danışmanlığı"
+    }
+  },
+  "serviceDetails": {
+    "title": "Hizmet Süreçlerimiz",
+    "subtitle": "Detaylı Süreç Rehberi",
+    "description": "Her hizmetimiz için şeffaf ve detaylı süreç adımları",
+    "services": {
+      "urbanTransformation": {
+        "title": "Kentsel Dönüşüm",
+        "subtitle": "Hak sahiplerine adil paylaşım ve profesyonel danışmanlık",
+        "description": "Kentsel dönüşüm projelerinde hak sahiplerine adil paylaşım ve değerleme danışmanlığı",
+        "steps": {
+          "analysis": {
+            "title": "İlk Değerlendirme",
+            "description": "Taşınmazınızın teknik ve yasal analizini yapıyoruz"
+          },
+          "planning": {
+            "title": "Proje Planlama",
+            "description": "Dönüşüm sürecinin detaylı planlamasını oluşturuyoruz"
+          },
+          "valuation": {
+            "title": "Değer Tespiti",
+            "description": "Gayrimenkulünüzün gerçek değerini belirliyoruz"
+          },
+          "negotiation": {
+            "title": "Müzakere Süreci",
+            "description": "Hak sahipleri adına profesyonel müzakere yürütüyoruz"
+          },
+          "legal": {
+            "title": "Yasal İşlemler",
+            "description": "Tüm yasal süreçleri takip ve yönetiyoruz"
+          },
+          "completion": {
+            "title": "Proje Tamamlama",
+            "description": "Yeni gayrimenkulünüzün teslimine kadar yanınızdayız"
+          }
+        }
+      },
+      "valuation": {
+        "title": "Gayrimenkul Değerleme",
+        "subtitle": "SPK lisanslı değerleme raporları ile profesyonel hizmet",
+        "steps": {
+          "contact": {
+            "title": "İlk Görüşme",
+            "description": "İhtiyaç ve beklentilerinizi dinliyoruz"
+          },
+          "research": {
+            "title": "Pazar Araştırması",
+            "description": "Bölgesel piyasa analizi yapıyoruz"
+          },
+          "inspection": {
+            "title": "Fiziksel İnceleme",
+            "description": "Yerinde detaylı inceleme gerçekleştiriyoruz"
+          },
+          "report": {
+            "title": "Değerleme Raporu",
+            "description": "SPK lisanslı rapor hazırlıyoruz"
+          },
+          "consultation": {
+            "title": "Yatırım Danışmanlığı",
+            "description": "Getiri ve risk analizi sunuyoruz"
+          },
+          "followup": {
+            "title": "Takip Hizmeti",
+            "description": "Piyasa değişimlerini izliyoruz"
+          }
+        }
+      },
+      "construction": {
+        "title": "İnşaat Danışmanlığı",
+        "subtitle": "Proje yönetiminden inşaat denetimine kadar tüm süreçler",
+        "steps": {
+          "site": {
+            "title": "Arsa Seçimi",
+            "description": "Lokasyon ve zemin analizi yapıyoruz"
+          },
+          "design": {
+            "title": "Proje Geliştirme",
+            "description": "Konsept ve ön proje hazırlıyoruz"
+          },
+          "cost": {
+            "title": "Maliyet Hesaplama",
+            "description": "Detaylı metraj ve fiyat analizi"
+          },
+          "contractor": {
+            "title": "Müteahhit Seçimi",
+            "description": "Referans kontrolü ve değerlendirme"
+          },
+          "supervision": {
+            "title": "Yapım Denetimi",
+            "description": "Kalite kontrol ve raporlama"
+          },
+          "delivery": {
+            "title": "Teslim Süreci",
+            "description": "Nihai kontrol ve belgelendirme"
+          }
+        }
+      },
+      "investment": {
+        "title": "Yatırım Danışmanlığı",
+        "subtitle": "En karlı yatırım fırsatlarını sizin için belirliyoruz",
+        "steps": {
+          "analysis": {
+            "title": "İhtiyaç Analizi",
+            "description": "Yatırım hedeflerinizi belirliyoruz"
+          },
+          "portfolio": {
+            "title": "Portföy İncelemesi",
+            "description": "Mevcut varlıklarınızı değerlendiriyoruz"
+          },
+          "strategy": {
+            "title": "Strateji Geliştirme",
+            "description": "Özel yatırım stratejisi oluşturuyoruz"
+          },
+          "plan": {
+            "title": "Uygulama Planı",
+            "description": "Adım adım eylem planı hazırlıyoruz"
+          },
+          "execution": {
+            "title": "İcra ve Takip",
+            "description": "Süreç yönetimi ve koordinasyon"
+          },
+          "performance": {
+            "title": "Performans Raporu",
+            "description": "Sonuç analizi ve geri bildirim"
+          }
+        }
+      }
+    }
+  },
+  "process": {
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "6 adımda profesyonel danışmanlık süreci",
+    "steps": {
+      "contact": {
+        "title": "İletişim",
+        "description": "İlk görüşme ve ihtiyaç analizi",
+        "details": [
+          "Ücretsiz ön görüşme",
+          "İhtiyaç analizi",
+          "Hizmet kapsamı belirleme"
+        ]
+      },
+      "analysis": {
+        "title": "Analiz",
+        "description": "Detaylı inceleme ve değerlendirme",
+        "details": [
+          "Saha çalışması",
+          "Teknik analiz",
+          "Pazar araştırması"
+        ]
+      },
+      "planning": {
+        "title": "Planlama",
+        "description": "Stratejik yol haritası oluşturma",
+        "details": [
+          "Eylem planı hazırlama",
+          "Zaman çizelgesi",
+          "Bütçe planlaması"
+        ]
+      },
+      "implementation": {
+        "title": "Uygulama",
+        "description": "Projenin hayata geçirilmesi",
+        "details": [
+          "Proje yönetimi",
+          "Süreç takibi",
+          "Kalite kontrolü"
+        ]
+      },
+      "monitoring": {
+        "title": "Takip",
+        "description": "Sürekli izleme ve raporlama",
+        "details": [
+          "Düzenli raporlama",
+          "Performans analizi",
+          "Revizyon önerileri"
+        ]
+      },
+      "completion": {
+        "title": "Teslim",
+        "description": "Başarılı proje tamamlama",
+        "details": [
+          "Final kontrolü",
+          "Belge teslimi",
+          "Satış sonrası destek"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Projeniz İçin Hemen Başlayalım",
+      "description": "Uzman ekibimiz size özel çözüm üretmek için hazır",
+      "button": "Ücretsiz Danışmanlık Alın",
+      "callNow": "Hemen Ara"
+    }
+  },
+  "coverage": {
+    "title": "Çalışma Alanımız",
+    "subtitle": "İstanbul'un 33 ilçesinde profesyonel gayrimenkul danışmanlık hizmetleri sunuyoruz",
+    "badge": "İstanbul Genelinde Hizmet",
+    "stats": {
+      "projects": {
+        "value": "2000+",
+        "label": "Tamamlanan Proje"
+      },
+      "satisfaction": {
+        "value": "%98",
+        "label": "Müşteri Memnuniyeti"
+      },
+      "experience": {
+        "value": "20+",
+        "label": "Yıllık Deneyim"
+      },
+      "clients": {
+        "value": "500+",
+        "label": "Mutlu Müşteri"
+      }
+    },
+    "zones": {
+      "european": "Avrupa Yakası",
+      "asian": "Asya Yakası",
+      "europeanCount": "23 İlçe Kapsamı",
+      "asianCount": "10 İlçe Kapsamı"
+    },
+    "cta": {
+      "title": "Tüm İstanbul'da Güvenilir Hizmet",
+      "subtitle": "Hangi ilçede olursanız olun, profesyonel ekibimiz gayrimenkul ihtiyaçlarınız için yanınızda",
+      "support": "7/24 Destek",
+      "evaluation": "Ücretsiz Değerlendirme",
+      "appointment": "Anında Randevu"
+    }
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Merak ettiklerinizin cevapları",
+    "contactCta": {
+      "question": "Sorunuzun cevabını bulamadınız mı?",
+      "button": "Bize Ulaşın"
+    },
+    "categories": {
+      "urbanTransformation": {
+        "title": "Kentsel Dönüşüm",
+        "questions": [
+          {
+            "q": "Kentsel dönüşüm süreci ne kadar sürer?",
+            "a": "Kentsel dönüşüm süreci ortalama 3-5 yıl arasında tamamlanır. Bu süre projenin büyüklüğü, hak sahiplerinin sayısı ve belediye onay süreçlerine göre değişiklik gösterebilir."
+          },
+          {
+            "q": "Kentsel dönüşümde masrafları kim karşılar?",
+            "a": "Genel olarak müteahhit firma tüm proje masraflarını karşılar. Hak sahipleri genellikle herhangi bir ödeme yapmaz ve yeni dairelerinin mülkiyetini alır."
+          },
+          {
+            "q": "Kentsel dönüşümde haklar nasıl belirlenir?",
+            "a": "Haklar mevcut taşınmazın değeri, konumu ve metrekaresi baz alınarak belirlenir. Profesyonel değerleme firmaları tarafından adil bir değerlendirme yapılır."
+          }
+        ]
+      },
+      "valuation": {
+        "title": "Gayrimenkul Değerlendirme",
+        "questions": [
+          {
+            "q": "Gayrimenkul değerleme raporu ne kadar sürede hazırlanır?",
+            "a": "Standart bir gayrimenkul değerleme raporu 3-7 iş günü içinde teslim edilir. Acil durumlar için hızlandırılmış değerleme hizmeti de sunulmaktadır."
+          },
+          {
+            "q": "Değerleme raporu hangi kurumlarda geçerlidir?",
+            "a": "SPK lisanslı değerleme raporlarımız tüm bankalar, mahkemeler ve resmi kurumlarda geçerlidir. Kredi, ipotek, satış ve yasal işlemlerde kullanılabilir."
+          },
+          {
+            "q": "Değerleme ücreti nasıl belirlenir?",
+            "a": "Ücretlendirme gayrimenkulün tipi, büyüklüğü ve konumuna göre değişir. Detaylı bilgi için ücretsiz ön görüşme yapabilirsiniz."
+          }
+        ]
+      },
+      "construction": {
+        "title": "İnşaat Danışmanlığı",
+        "questions": [
+          {
+            "q": "İnşaat danışmanlığı hizmeti neleri kapsar?",
+            "a": "Proje yönetimi, kalite kontrolü, maliyet optimizasyonu, zaman planlaması ve teknik denetim hizmetlerini kapsar."
+          },
+          {
+            "q": "Hangi tür projelerde çalışıyorsunuz?",
+            "a": "Konut, ticari, endüstriyel ve karma kullanım projelerinde danışmanlık hizmeti veriyoruz."
+          }
+        ]
+      },
+      "general": {
+        "title": "Genel Sorular",
+        "questions": [
+          {
+            "q": "Danışmanlık ücretleri nasıl belirlenir?",
+            "a": "Ücretler proje kapsamı, süre ve karmaşıklığa göre belirlenir. İlk görüşme ve ön değerlendirme ücretsizdir."
+          },
+          {
+            "q": "Hangi bölgelerde hizmet veriyorsunuz?",
+            "a": "İstanbul'un tüm ilçelerinde aktif olarak hizmet veriyoruz. Diğer şehirler için özel projeler de değerlendirilebilir."
+          },
+          {
+            "q": "Online danışmanlık hizmeti veriyor musunuz?",
+            "a": "Evet, online toplantılar ve dijital belgelerle uzaktan danışmanlık hizmeti de sunuyoruz."
+          }
+        ]
+      }
+    }
+  },
+  "about": {
+    "title": "Piran Gayrimenkul Hakkında",
+    "description": "Kentsel dönüşüm konusunda uzmanlaşmış, kurumsal firmalara arsa, arazi ve bina konularında danışmanlık veren profesyonel ekibimizle sizlere hizmet veriyoruz.",
+    "experience": "Yıllık Deneyim",
+    "projects": "Tamamlanan Proje",
+    "clients": "Mutlu Müşteri",
+    "successRate": "Başarı Oranı",
+    "features": {
+      "team": {
+        "title": "Profesyonel Ekip",
+        "description": "Sektörde uzman, deneyimli ve dinamik profesyonellerden oluşan kadromuz"
+      },
+      "quality": {
+        "title": "Kalite Güvencesi",
+        "description": "İş süreçlerimizde kalite ve güvenilirliği ön planda tutuyoruz"
+      },
+      "focus": {
+        "title": "Hedef Odaklı",
+        "description": "Müşteri memnuniyetini sağlayarak hedefe odaklanmış çalışma anlayışı"
+      },
+      "innovation": {
+        "title": "Yenilikçi Çözümler",
+        "description": "Sektördeki en güncel teknoloji ve yöntemleri uyguluyoruz"
+      }
+    },
+    "stats": {
+      "activeProjects": "Aktif Projeler",
+      "successRate": "Başarı Oranı"
+    },
+    "tagline": {
+      "line1": "Gayrimenkul Danışmanlığında",
+      "line2": "Güvenilir Çözüm Ortağınız"
+    },
+    "badges": {
+      "projects": "Projeler",
+      "coverage": "Kapsam",
+      "experience": "Deneyim",
+      "projectsValue": "500+ Proje",
+      "coverageValue": "35 İlçe",
+      "experienceValue": "20+ Yıl"
+    }
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Gayrimenkul danışmanlığı hizmetlerimiz hakkında detaylı bilgi almak için bizimle iletişime geçin",
+    "info": {
+      "phone": "Telefon",
+      "email": "E-posta",
+      "address": "Adres",
+      "addressContent": "Küçük Çamlıca Mah. Libadiye Cad. No:52 Üsküdar/İstanbul",
+      "hours": "Çalışma Saatleri",
+      "mapView": "Harita Görünümü",
+      "location": "İstanbul, Türkiye"
+    },
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "send": "Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi!",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+      "subjects": {
+        "urbanTransformation": "Kentsel Dönüşüm",
+        "valuation": "Gayrimenkul Değerleme",
+        "construction": "İnşaat Danışmanlığı",
+        "investment": "Yatırım Danışmanlığı",
+        "other": "Diğer"
+      }
+    }
+  },
+  "footer": {
+    "description": "Gayrimenkul sektöründe güvenilir çözüm ortağınız. Kentsel dönüşüm ve danışmanlık hizmetlerinde uzman ekibimizle yanınızdayız.",
+    "quickLinks": "Hızlı Linkler",
+    "services": "Hizmetler",
+    "contact": "İletişim Bilgileri",
+    "rights": "Tüm hakları saklıdır.",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-posta"
+  },
+  "common": {
+    "readMore": "Devamını Oku",
+    "learnMore": "Daha Fazla Bilgi",
+    "getQuote": "Teklif Al",
+    "viewAll": "Tümünü Gör",
+    "close": "Kapat",
+    "open": "Aç"
+  }
+}
