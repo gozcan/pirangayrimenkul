@@ -57,7 +57,7 @@ const KVKK = () => {
                   Adres: Küçük Çamlıca Mah. Libadiye Cad. No:52 Üsküdar/İstanbul
                 </p>
                 <p className="text-slate-600 text-sm">
-                  E-posta: info@pirangayrimenkul.com
+                  E-posta: info@pirangyd.com
                 </p>
                 <p className="text-slate-600 text-sm">
                   Telefon: +90 530 123 45 67

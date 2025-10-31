@@ -48,7 +48,7 @@ Vercel, GitHub'a her push yaptığınızda otomatik olarak deploy eder:
 
 ## Custom Domain (Opsiyonel)
 1. Vercel Dashboard > Project Settings > Domains
-2. Domain adınızı ekleyin (örn: pirangayrimenkul.com)
+2. Domain adınızı ekleyin (örn: pirangyd.com)
 3. DNS ayarlarınızı güncelleyin
 4. SSL sertifikası otomatik oluşturulacak
 

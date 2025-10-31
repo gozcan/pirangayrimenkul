@@ -3,7 +3,28 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
+  scroll-padding-top: 64px; /* Mobile: 16px (h-16) */
+}
+
+/* Tablet and up */
+@media (min-width: 640px) {
+  html {
+    scroll-padding-top: 80px; /* sm: 20px (h-20) */
+  }
+}
+
+/* Desktop medium */
+@media (min-width: 768px) {
+  html {
+    scroll-padding-top: 96px; /* md: 24px (h-24) */
+  }
+}
+
+/* Desktop large */
+@media (min-width: 1024px) {
+  html {
+    scroll-padding-top: 112px; /* lg: 28px (h-28) */
+  }
 }
 
 body {
