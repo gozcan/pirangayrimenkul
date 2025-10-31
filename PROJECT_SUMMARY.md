@@ -181,7 +181,7 @@ base: '/pirangayrimenkul/'
 
 ### İletişim
 - Adres: İstanbul, Türkiye
-- Email: info@pirangayrimenkul.com
+- Email: info@pirangyd.com
 - Telefon: +90 (212) 123 45 67
 
 ## ✨ Öne Çıkan Özellikler

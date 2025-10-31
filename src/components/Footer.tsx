@@ -126,10 +126,10 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 +90 850 346 46 52
               </a>
               <a
-                href="mailto:info@pirangayrimenkul.com"
+                href="mailto:info@pirangyd.com"
                 className="block text-slate-400 hover:text-blue-400 transition-colors duration-200 text-sm"
               >
-                info@pirangayrimenkul.com
+                info@pirangyd.com
               </a>
             </div>
           </motion.div>
