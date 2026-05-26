@@ -440,11 +440,54 @@ h1.headline, .page-hero h1 { overflow: hidden; }
 
 /* ============ Polish: scroll progress, link underlines, scroll cue ============ */
 
-/* Top scroll progress bar — thin accent line, expands as you scroll */
+/* ---- Native browser scrollbar (Firefox + WebKit) ---- */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(20, 20, 15, 0.35) transparent;
+  scrollbar-gutter: stable;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(20, 20, 15, 0.32);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  transition: background-color .2s ease;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(20, 20, 15, 0.58);
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-thumb:active {
+  background-color: var(--accent);
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-corner { background: transparent; }
+
+/* Dark-themed sections get a lighter thumb that reads on the dark background. */
+[data-bg-theme="noir"] {
+  scrollbar-color: rgba(255, 255, 255, 0.35) transparent;
+}
+[data-bg-theme="noir"] *::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.28);
+  background-clip: padding-box;
+}
+[data-bg-theme="noir"] *::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-clip: padding-box;
+}
+
+/* Top scroll progress bar — soft track + accent fill with subtle glow. */
 .scroll-progress {
   position: fixed; top: 0; left: 0; right: 0;
-  height: 2px;
-  background: transparent;
+  height: 3px;
+  background: rgba(20, 20, 15, 0.06);
   z-index: 200;
   pointer-events: none;
 }
@@ -452,8 +495,13 @@ h1.headline, .page-hero h1 { overflow: hidden; }
   content: ""; display: block;
   height: 100%;
   width: var(--scroll-pct, 0%);
-  background: var(--accent);
-  transition: width .1s linear;
+  background: linear-gradient(
+    90deg,
+    var(--accent) 0%,
+    rgba(201, 74, 38, 0.92) 100%
+  );
+  box-shadow: 0 0 8px -1px rgba(201, 74, 38, 0.55);
+  transition: width .12s cubic-bezier(.22,.7,.2,1);
 }
 
 /* Animated underline on nav + footer + faq-aside links */
