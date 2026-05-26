@@ -3,9 +3,57 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Hakkımızda — Piran Gayrimenkul",
-  description: "15+ yıl deneyim. Lisanslı ekip, şeffaf süreç, anahtar teslim sorumluluk.",
-  alternates: { canonical: "https://www.pirangyd.com/hakkimizda" },
+  title: "Hakkımızda — 15+ Yıllık Kentsel Dönüşüm Ekibi",
+  description:
+    "Piran Gayrimenkul; 2010'dan beri İstanbul'da kentsel dönüşüm, değerleme ve inşaat danışmanlığı yapan, SPK lisanslı uzmanlardan oluşan ekip. Şeffaf süreç, anahtar teslim sorumluluk, tek muhatap çalışma modeli.",
+  keywords: [
+    "Piran Gayrimenkul hakkımızda",
+    "İstanbul kentsel dönüşüm firması",
+    "SPK lisanslı değerleme uzmanı",
+    "kentsel dönüşüm danışmanlık ekibi",
+    "Ekşioğlu Grup",
+  ],
+  alternates: {
+    canonical: "https://www.pirangyd.com/hakkimizda",
+    languages: {
+      tr: "https://www.pirangyd.com/hakkimizda",
+      en: "https://www.pirangyd.com/hakkimizda?lang=en",
+    },
+  },
+  openGraph: {
+    title: "Hakkımızda — Piran Gayrimenkul",
+    description:
+      "İstanbul'da 15+ yıllık kentsel dönüşüm ve değerleme deneyimi.",
+    url: "https://www.pirangyd.com/hakkimizda",
+    type: "website",
+  },
+};
+
+const BREADCRUMB_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Anasayfa",
+      item: "https://www.pirangyd.com/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Hakkımızda",
+      item: "https://www.pirangyd.com/hakkimizda",
+    },
+  ],
+};
+
+const ABOUT_PAGE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  url: "https://www.pirangyd.com/hakkimizda",
+  name: "Hakkımızda — Piran Gayrimenkul",
+  about: { "@id": "https://www.pirangyd.com/#organization" },
 };
 
 export default function Page() {
@@ -13,11 +61,23 @@ export default function Page() {
     <>
       <Nav />
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(BREADCRUMB_JSON_LD),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(ABOUT_PAGE_JSON_LD),
+          }}
+        />
         {/* Page hero */}
         <section className="page-hero">
           <div className="shell">
             <div className="page-hero-bar">
-              <div className="left"><span className="dot-pulse"></span>&nbsp;&nbsp;OFİS · MASLAK / İST · 41°06′N 29°00′E</div>
+              <div className="left"><span className="dot-pulse"></span>&nbsp;&nbsp;OFİS · KÜÇÜK ÇAMLICA / İST · 41°00′N 29°03′E</div>
               <div className="center"><span data-tr>HAKKIMIZDA · 2010 → 2026</span><span data-en>ABOUT · 2010 → 2026</span></div>
               <div className="right">SCALE 1:1 · DRWG · PRN/2026/ABT</div>
             </div>
@@ -41,8 +101,8 @@ export default function Page() {
                   <span><span data-tr>Hakkımızda</span><span data-en>About</span></span>
                 </nav>
                 <p>
-                  <span data-tr>Piran, 2010'da Maslak'ta küçük bir değerleme ofisi olarak başladı. Bugün dört bölümlü bir gayrimenkul firması — kentsel dönüşümden inşaata, değerlemeden yatırım danışmanlığına; ama hâlâ aynı tek dosya, aynı tek imza ile.</span>
-                  <span data-en>Piran began in 2010 as a small valuation office in Maslak. Today we run four departments — urban renewal, construction, valuation and investment advisory — yet still under a single file, signed by a single hand.</span>
+                  <span data-tr>Piran, 2010'da Küçük Çamlıca'da küçük bir değerleme ofisi olarak başladı. Bugün dört bölümlü bir gayrimenkul firması — kentsel dönüşümden inşaata, değerlemeden yatırım danışmanlığına; ama hâlâ aynı tek dosya, aynı tek imza ile.</span>
+                  <span data-en>Piran began in 2010 as a small valuation office in Küçük Çamlıca. Today we run four departments — urban renewal, construction, valuation and investment advisory — yet still under a single file, signed by a single hand.</span>
                 </p>
                 <dl className="meta-block">
                   <div><dt><span data-tr>Kuruluş</span><span data-en>Founded</span></dt><dd>2010</dd></div>
@@ -85,24 +145,29 @@ export default function Page() {
             <div className="label"><span data-tr>01 · HİKAYE</span><span data-en>01 · STORY</span></div>
 
             <p>
-              <span data-tr>Mehmet Piran, 2010 yılında Maslak'ta üç odalı bir ofiste başladı. SPK değerleme uzmanlığını yeni almıştı; ilk müşterileri komşu apartmanlardı. O yıl Türkiye, 6306 sayılı kanun için hazırlık yapıyordu — yıkım izinleri, riskli yapı raporları ve kira yardımları henüz bugünkü şekline ulaşmamıştı.</span>
-              <span data-en>Mehmet Piran started in 2010, in a three-room office in Maslak. He had just earned his SPK valuation licence; his first clients were neighbouring apartment buildings. Turkey was at that moment drafting Law 6306 — demolition permits, risky-building reports and rent-assistance schemes had not yet taken their current shape.</span>
+              <span data-tr>Piran, 2010 yılında Küçük Çamlıca&apos;da üç odalı bir ofiste, SPK lisanslı bir değerleme bürosu olarak kuruldu. İlk müşteriler komşu apartmanlardı. O yıl Türkiye, 6306 sayılı kanun için hazırlık yapıyordu — yıkım izinleri, riskli yapı raporları ve kira yardımları henüz bugünkü şekline ulaşmamıştı.</span>
+              <span data-en>Piran was founded in 2010 in a three-room office in Küçük Çamlıca as an SPK-licensed valuation practice. The first clients were neighbouring apartment buildings. Turkey was at that moment drafting Law 6306 — demolition permits, risky-building reports and rent-assistance schemes had not yet taken their current shape.</span>
             </p>
 
             <p>
-              <span data-tr>İlk büyük dönüşüm projesinde Mehmet, üç farklı firmadan teklif aldıktan sonra fark etti: aynı binaya bakan üç firma birbirinden farklı yanıt veriyordu, hiçbiri tüm soruyu cevaplamıyordu. Ortaya çıkan boşluk Piran'ı bugünkü çatısına dönüştürdü: değerleme, kentsel dönüşüm danışmanlığı, inşaat ve yatırım — hepsi aynı koridordan, aynı sözleşmeden, aynı imzadan.</span>
-              <span data-en>On his first major transformation project Mehmet noticed something: three different firms looking at the same building gave three different answers — and none of them answered every question. The gap is what shaped Piran into what it is today: valuation, advisory, construction and investment, all in one corridor, one contract, one signature.</span>
+              <span data-tr>İlk büyük dönüşüm projesinde ekibimiz, üç farklı firmadan teklif aldıktan sonra fark etti: aynı binaya bakan üç firma birbirinden farklı yanıt veriyordu, hiçbiri tüm soruyu cevaplamıyordu. Ortaya çıkan boşluk Piran&apos;ı bugünkü çatısına dönüştürdü: değerleme, kentsel dönüşüm danışmanlığı, inşaat ve yatırım — hepsi aynı koridordan, aynı sözleşmeden, aynı imzadan.</span>
+              <span data-en>On the first major transformation project the team noticed something: three different firms looking at the same building gave three different answers — and none of them answered every question. The gap is what shaped Piran into what it is today: valuation, advisory, construction and investment, all in one corridor, one contract, one signature.</span>
             </p>
 
             <blockquote className="quote">
-              <span data-tr>"Bir binayı yenilemek, on tarafın masada olduğu bir müzakeredir. Bizim işimiz, müzakerenin doğru tarafında olmak — malik tarafında, mahalle tarafında, kanun tarafında."</span>
-              <span data-en>"Renovating a building is a negotiation with ten parties at the table. Our job is to be on the right side of it — the owner's, the neighbourhood's, the law's."</span>
-              <footer><span data-tr>M. Piran · Kurucu, 2010</span><span data-en>M. Piran · Founder, 2010</span></footer>
+              <span data-tr>&quot;Bir binayı yenilemek, on tarafın masada olduğu bir müzakeredir. Bizim işimiz, müzakerenin doğru tarafında olmak — malik tarafında, mahalle tarafında, kanun tarafında.&quot;</span>
+              <span data-en>&quot;Renovating a building is a negotiation with ten parties at the table. Our job is to be on the right side of it — the owner&apos;s, the neighbourhood&apos;s, the law&apos;s.&quot;</span>
+              <footer><span data-tr>Piran Gayrimenkul · 2010&apos;dan beri</span><span data-en>Piran Gayrimenkul · since 2010</span></footer>
             </blockquote>
 
             <p>
-              <span data-tr>Bugün 32 kişilik bir ekibiz: 8 mimar, 6 mühendis, 4 değerleme uzmanı, 3 hukukçu, 7 şantiye yöneticisi ve 4 destek personeli. İstanbul'un 23 ilçesinde 142 proje tamamladık, 2.860 daire teslim ettik. On beş yıl ve şimdiye kadar tek bir ciddi iş kazası ya da hukuki uyuşmazlık kaydımız yok. Bu istatistik bir hediye değil — kararların temelidir.</span>
-              <span data-en>Today we are 32 people: 8 architects, 6 engineers, 4 appraisers, 3 lawyers, 7 site managers and 4 support staff. We have delivered 142 projects across 23 Istanbul districts, 2,860 units. Fifteen years in and we still log zero serious site incidents and zero lawsuits. That figure isn't a gift — it's a discipline.</span>
+              <span data-tr>Bugün 32 kişilik bir ekibiz: mimarlar, mühendisler, değerleme uzmanları, hukukçular, şantiye yöneticileri ve destek personelinden oluşuyoruz. İstanbul&apos;un 23 ilçesinde 142 proje tamamladık, 2.860 daire teslim ettik. On beş yıl ve şimdiye kadar tek bir ciddi iş kazası ya da hukuki uyuşmazlık kaydımız yok. Bu istatistik bir hediye değil — kararların temelidir.</span>
+              <span data-en>Today we are a 32-person team — architects, engineers, appraisers, lawyers, site managers and support staff. We have delivered 142 projects across 23 Istanbul districts, 2,860 units. Fifteen years in and we still log zero serious site incidents and zero lawsuits. That figure isn&apos;t a gift — it&apos;s a discipline.</span>
+            </p>
+
+            <p>
+              <span data-tr>Piran Gayrimenkul, bir <a href="https://eksioglugrup.tr/" target="_blank" rel="noopener noreferrer"><strong>Ekşioğlu Grup</strong></a> şirketidir. Grup bünyesindeki kurumsal güç, finansman disiplini ve sektörel deneyim Piran&apos;ın her projesine yansır.</span>
+              <span data-en>Piran Gayrimenkul is a member of <a href="https://eksioglugrup.tr/" target="_blank" rel="noopener noreferrer"><strong>Ekşioğlu Grup</strong></a>. The group&apos;s institutional strength, financial discipline and decades of sector experience inform every Piran project.</span>
             </p>
           </div>
         </section>
@@ -198,92 +263,13 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Leadership */}
-        <section className="team">
-          <div className="shell">
-            <header className="sec-head">
-              <div>
-                <div className="meta-line">
-                  <span className="chip solid">03</span>
-                  <span data-tr>Liderlik · Tanıştırma</span><span data-en>Leadership · Introduction</span>
-                </div>
-                <h2>
-                  <span data-tr>Karar masasında, <span className="accent">altı isim.</span></span>
-                  <span data-en>Six names <span className="accent">at the decision table.</span></span>
-                </h2>
-              </div>
-              <p className="lead">
-                <span data-tr>Disiplinlerini bilen, ofisini bilen, sahayı bilen kişiler. İlk görüşmenizden teslim gününe kadar muhataplarınız bu altı kişiden biri olacak.</span>
-                <span data-en>People who know their discipline, the office and the site. From first meeting to handover, your point of contact will be one of these six.</span>
-              </p>
-            </header>
-
-            <div className="team-grid">
-              <article className="team-card">
-                <div className="avatar"><svg viewBox="0 0 100 125" preserveAspectRatio="xMidYMid slice"><rect width="100" height="125" fill="#1d4548" /><circle cx="50" cy="55" r="22" fill="#c94a26" /><rect x="22" y="80" width="56" height="80" fill="#c94a26" /></svg></div>
-                <div className="role"><span data-tr>Kurucu &amp; CEO</span><span data-en>Founder &amp; CEO</span></div>
-                <div className="name">Mehmet Piran</div>
-                <p>
-                  <span data-tr>İTÜ Mimarlık · SPK Değerleme Uzmanı. 2010'dan beri Piran'ı yönetiyor. Maslak ofisinde, kapısı açık.</span>
-                  <span data-en>İTÜ Architecture · SPK Appraiser. Has led Piran since 2010. Open-door office in Maslak.</span>
-                </p>
-              </article>
-              <article className="team-card">
-                <div className="avatar"><svg viewBox="0 0 100 125" preserveAspectRatio="xMidYMid slice"><rect width="100" height="125" fill="#ebe4d3" /><circle cx="50" cy="55" r="22" fill="#14140f" /><rect x="22" y="80" width="56" height="80" fill="#14140f" /></svg></div>
-                <div className="role"><span data-tr>Mimari Direktör</span><span data-en>Design Director</span></div>
-                <div className="name">Selin Aksoy</div>
-                <p>
-                  <span data-tr>YTÜ Mimarlık, M.Arch (TU Delft). 14 yıllık konut + karma kullanım tecrübesi. Ekibin sokak siluetini düşünen ismi.</span>
-                  <span data-en>YTÜ Architecture, M.Arch (TU Delft). 14 years of residential + mixed-use experience. The team's streetscape thinker.</span>
-                </p>
-              </article>
-              <article className="team-card">
-                <div className="avatar"><svg viewBox="0 0 100 125" preserveAspectRatio="xMidYMid slice"><rect width="100" height="125" fill="#c94a26" /><circle cx="50" cy="55" r="22" fill="#efece6" /><rect x="22" y="80" width="56" height="80" fill="#efece6" /></svg></div>
-                <div className="role"><span data-tr>Statik &amp; İnşaat Müdürü</span><span data-en>Structural &amp; Site Director</span></div>
-                <div className="name">Cem Demir</div>
-                <p>
-                  <span data-tr>İTÜ İnşaat Müh., 18 yıl şantiye. 2018 deprem yönetmeliği güncellemesinde bakanlık danışman kadrosunda.</span>
-                  <span data-en>İTÜ Civil Eng., 18 years on site. Sat on the Ministry advisory panel for the 2018 seismic-code revision.</span>
-                </p>
-              </article>
-              <article className="team-card">
-                <div className="avatar"><svg viewBox="0 0 100 125" preserveAspectRatio="xMidYMid slice"><rect width="100" height="125" fill="#14140f" /><circle cx="50" cy="55" r="22" fill="#c94a26" /><rect x="22" y="80" width="56" height="80" fill="#c94a26" /></svg></div>
-                <div className="role"><span data-tr>Değerleme Müdürü</span><span data-en>Valuation Director</span></div>
-                <div className="name">Aylin Çelik</div>
-                <p>
-                  <span data-tr>SPK Lisanslı Değerleme Uzmanı, BDDK uyumlu banka raporlamada 12 yıl. Yargı uzmanlık raporlarımızı yönetir.</span>
-                  <span data-en>SPK-licensed Appraiser, 12 years of BDDK-aligned bank reporting. Oversees our litigation appraisals.</span>
-                </p>
-              </article>
-              <article className="team-card">
-                <div className="avatar"><svg viewBox="0 0 100 125" preserveAspectRatio="xMidYMid slice"><rect width="100" height="125" fill="#1d4548" /><circle cx="50" cy="55" r="22" fill="#efece6" /><rect x="22" y="80" width="56" height="80" fill="#efece6" /></svg></div>
-                <div className="role"><span data-tr>Hukuk Müşaviri</span><span data-en>General Counsel</span></div>
-                <div className="name">Burak Yıldız</div>
-                <p>
-                  <span data-tr>İstanbul Barosu · Gayrimenkul Hukuku. 6306 sayılı kanun uygulamasında 9 yıl, hak sahipleri anlaşmazlıklarında uzman.</span>
-                  <span data-en>Istanbul Bar · Real Estate Law. 9 years applying Law 6306, expert in stakeholder disputes.</span>
-                </p>
-              </article>
-              <article className="team-card">
-                <div className="avatar"><svg viewBox="0 0 100 125" preserveAspectRatio="xMidYMid slice"><rect width="100" height="125" fill="#ebe4d3" /><circle cx="50" cy="55" r="22" fill="#1d4548" /><rect x="22" y="80" width="56" height="80" fill="#1d4548" /></svg></div>
-                <div className="role"><span data-tr>Yatırım &amp; Strateji</span><span data-en>Investment &amp; Strategy</span></div>
-                <div className="name">Ece Karaca</div>
-                <p>
-                  <span data-tr>Boğaziçi Ekonomi, CFA Level III. Aile ofisleri ve gayrimenkul fonları için portföy danışmanlığı.</span>
-                  <span data-en>Boğaziçi Economics, CFA Level III. Portfolio advisory for family offices and real-estate funds.</span>
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-
         {/* Certifications */}
         <section className="certs">
           <div className="shell">
             <header className="sec-head" style={{borderBottomColor: "#2a2922"}}>
               <div>
                 <div className="meta-line" style={{color: "#847e6c"}}>
-                  <span className="chip" style={{background: "#1d1d17", color: "#fff", borderColor: "#2a2922"}}>04</span>
+                  <span className="chip" style={{background: "#1d1d17", color: "#fff", borderColor: "#2a2922"}}>03</span>
                   <span data-tr>Lisans &amp; Sertifika</span><span data-en>Licenses &amp; Certifications</span>
                 </div>
                 <h2 style={{color: "var(--paper-on-dark)"}}>
@@ -325,13 +311,13 @@ export default function Page() {
                   <span data-en>Tea first. <span className="knockout">Decisions later.</span></span>
                 </h2>
                 <p className="lead">
-                  <span data-tr>Maslak ofisimiz Pazartesi'den Cuma'ya 09:00–18:30 açık. Önceden randevu almanız bile gerekmiyor — uğrayın, ekibimizle tanışın.</span>
-                  <span data-en>Our Maslak office is open Mon–Fri, 09:00–18:30. You don't need an appointment — drop by and meet the team.</span>
+                  <span data-tr>Küçük Çamlıca ofisimiz Pazartesi&apos;den Cuma&apos;ya 09:00–18:30 açık. Önceden randevu almanız bile gerekmiyor — uğrayın, ekibimizle tanışın.</span>
+                  <span data-en>Our Küçük Çamlıca office is open Mon–Fri, 09:00–18:30. You don&apos;t need an appointment — drop by and meet the team.</span>
                 </p>
               </div>
               <div className="cta-actions">
                 <span className="label"><span data-tr>Adres</span><span data-en>Address</span></span>
-                <a href="/iletisim" className="phone">Maslak Mah. AOS No: 8</a>
+                <a href="/iletisim" className="phone">Küçük Çamlıca Mah. Libadiye Cad. No 52 Üsküdar / İstanbul</a>
                 <a href="/iletisim" className="btn btn-primary"><span data-tr>Yol tarifi al</span><span data-en>Get directions</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M5 12h14M13 5l7 7-7 7" /></svg></a>
               </div>
             </div>

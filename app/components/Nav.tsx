@@ -64,9 +64,13 @@ export default function Nav({ ctaToForm = false }: NavProps) {
       <header className="nav" role="banner">
         <div className="nav-inner">
           <Link href="/" className="nav-brand" aria-label="Piran Gayrimenkul">
-            <span className="mark" aria-hidden="true"></span>
-            <span>Piran</span>
-            <small>Gayrimenkul · İST</small>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.svg"
+              alt="Piran Gayrimenkul"
+              className="nav-logo"
+              style={{ height: 56, width: "auto", display: "block" }}
+            />
           </Link>
           <nav className="nav-links" aria-label="Ana menü">
             {links.map((l) => (
@@ -121,9 +125,12 @@ export default function Nav({ ctaToForm = false }: NavProps) {
             className="nav-brand"
             onClick={() => setMenuOpen(false)}
           >
-            <span className="mark" aria-hidden="true"></span>
-            <span>Piran</span>
-            <small>Gayrimenkul · İST</small>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.svg"
+              alt="Piran Gayrimenkul"
+              style={{ height: 48, width: "auto", display: "block" }}
+            />
           </Link>
           <button
             className="menu-toggle"

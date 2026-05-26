@@ -3,9 +3,59 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "İletişim — Piran Gayrimenkul",
-  description: "Ücretsiz keşif, fiyat teklifi ve risk raporu için bize ulaşın.",
-  alternates: { canonical: "https://www.pirangyd.com/iletisim" },
+  title: "İletişim — Ücretsiz Kentsel Dönüşüm Keşfi",
+  description:
+    "İstanbul'da kentsel dönüşüm, gayrimenkul değerleme ve inşaat danışmanlığı için bize ulaşın. Üsküdar Küçük Çamlıca ofis · 0850 346 46 52 · info@pirangyd.com. İlk değerlendirme ücretsiz, 24 saat içinde dönüş.",
+  keywords: [
+    "Piran Gayrimenkul iletişim",
+    "kentsel dönüşüm iletişim",
+    "kentsel dönüşüm ücretsiz keşif",
+    "Üsküdar kentsel dönüşüm ofis",
+    "İstanbul kentsel dönüşüm telefon",
+    "kentsel dönüşüm fiyat teklifi",
+  ],
+  alternates: {
+    canonical: "https://www.pirangyd.com/iletisim",
+    languages: {
+      tr: "https://www.pirangyd.com/iletisim",
+      en: "https://www.pirangyd.com/iletisim?lang=en",
+    },
+  },
+  openGraph: {
+    title: "İletişim — Piran Gayrimenkul",
+    description:
+      "Üsküdar ofisten İstanbul geneline. Ücretsiz keşif için bize ulaşın.",
+    url: "https://www.pirangyd.com/iletisim",
+    type: "website",
+  },
+};
+
+const BREADCRUMB_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Anasayfa",
+      item: "https://www.pirangyd.com/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "İletişim",
+      item: "https://www.pirangyd.com/iletisim",
+    },
+  ],
+};
+
+const CONTACT_PAGE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  url: "https://www.pirangyd.com/iletisim",
+  name: "İletişim — Piran Gayrimenkul",
+  about: { "@id": "https://www.pirangyd.com/#organization" },
+  mainEntity: { "@id": "https://www.pirangyd.com/#organization" },
 };
 
 export default function Page() {
@@ -13,11 +63,23 @@ export default function Page() {
     <>
       <Nav ctaToForm />
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(BREADCRUMB_JSON_LD),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(CONTACT_PAGE_JSON_LD),
+          }}
+        />
         {/* Page hero */}
         <section className="page-hero">
           <div className="shell">
             <div className="page-hero-bar">
-              <div className="left"><span className="dot-pulse"></span>&nbsp;&nbsp;OFİS · MASLAK / İST · 41°06′N 29°00′E</div>
+              <div className="left"><span className="dot-pulse"></span>&nbsp;&nbsp;OFİS · KÜÇÜK ÇAMLICA / İST · 41°00′N 29°03′E</div>
               <div className="center"><span data-tr>İLETİŞİM · BAŞLANGIÇ NOKTASI</span><span data-en>CONTACT · START POINT</span></div>
               <div className="right">SCALE 1:1 · DRWG · PRN/2026/CNT</div>
             </div>
@@ -41,7 +103,7 @@ export default function Page() {
                   <span><span data-tr>İletişim</span><span data-en>Contact</span></span>
                 </nav>
                 <p>
-                  <span data-tr>Ekibimiz form gönderiminden sonra 4 saat içinde sizi arar; 24 saat içinde Maslak ofisten ya da kendi sahanızdan keşif randevusu oluşturur. İlk değerlendirme her zaman ücretsizdir.</span>
+                  <span data-tr>Ekibimiz form gönderiminden sonra 4 saat içinde sizi arar; 24 saat içinde Küçük Çamlıca ofisten ya da kendi sahanızdan keşif randevusu oluşturur. İlk değerlendirme her zaman ücretsizdir.</span>
                   <span data-en>Our team calls within 4 hours of your form. A site or office meeting is scheduled within 24 hours. First consultation is always free.</span>
                 </p>
                 <dl className="meta-block">
@@ -59,18 +121,18 @@ export default function Page() {
         <div className="marquee" aria-hidden="true">
           <div className="marquee-track">
             <div>
-              <span>+90 212 000 00 00</span><span className="dia"></span>
+              <span>0850 346 46 52</span><span className="dia"></span>
               <span>INFO@PIRANGYD.COM</span><span className="dia"></span>
-              <span>MASLAK MAH. AOS NO: 8</span><span className="dia"></span>
-              <span>SARIYER / İSTANBUL</span><span className="dia"></span>
+              <span>KÜÇÜK ÇAMLICA MAH. LİBADİYE CAD. NO 52</span><span className="dia"></span>
+              <span>ÜSKÜDAR / İSTANBUL</span><span className="dia"></span>
               <span>PZT–CUM 09:00 → 18:30</span><span className="dia"></span>
               <span>24 SAAT İÇİNDE DÖNÜŞ</span><span className="dia"></span>
             </div>
             <div>
-              <span>+90 212 000 00 00</span><span className="dia"></span>
+              <span>0850 346 46 52</span><span className="dia"></span>
               <span>INFO@PIRANGYD.COM</span><span className="dia"></span>
-              <span>MASLAK MAH. AOS NO: 8</span><span className="dia"></span>
-              <span>SARIYER / İSTANBUL</span><span className="dia"></span>
+              <span>KÜÇÜK ÇAMLICA MAH. LİBADİYE CAD. NO 52</span><span className="dia"></span>
+              <span>ÜSKÜDAR / İSTANBUL</span><span className="dia"></span>
               <span>PZT–CUM 09:00 → 18:30</span><span className="dia"></span>
               <span>24 SAAT İÇİNDE DÖNÜŞ</span><span className="dia"></span>
             </div>
@@ -147,7 +209,7 @@ export default function Page() {
 
                 <div className="contact-card">
                   <h3><span data-tr>Doğrudan arayın</span><span data-en>Call directly</span></h3>
-                  <a href="tel:+902120000000" className="big">+90 212 000 00 00</a>
+                  <a href="tel:+908503464652" className="big">0850 346 46 52</a>
                   <div className="sub"><span data-tr>Pazartesi–Cuma · 09:00–18:30</span><span data-en>Mon–Fri · 09:00–18:30</span></div>
                 </div>
 
@@ -158,8 +220,8 @@ export default function Page() {
                 </div>
 
                 <div className="contact-card">
-                  <h3><span data-tr>Maslak Ofis</span><span data-en>Maslak Office</span></h3>
-                  <span className="big">Maslak Mah. AOS No: 8</span>
+                  <h3><span data-tr>Küçük Çamlıca Ofis</span><span data-en>Küçük Çamlıca Office</span></h3>
+                  <span className="big">Küçük Çamlıca Mah. Libadiye Cad. No 52 Üsküdar / İstanbul</span>
                   <div className="sub">Sarıyer / İstanbul · 34485</div>
                 </div>
 
@@ -202,11 +264,11 @@ export default function Page() {
                       <text x="0" y="-18" fontFamily="Geist Mono, monospace" fontSize="9" fill="#14140f" textAnchor="middle">N</text>
                     </g>
                     {/* Street names */}
-                    <text x="280" y="370" fontFamily="Geist Mono, monospace" fontSize="9" fill="#14140f" letterSpacing="1">BÜYÜKDERE CAD.</text>
-                    <text x="20" y="155" fontFamily="Geist Mono, monospace" fontSize="8" fill="#6f6957" letterSpacing="0.5">MASLAK MH.</text>
+                    <text x="280" y="370" fontFamily="Geist Mono, monospace" fontSize="9" fill="#14140f" letterSpacing="1">LİBADİYE CAD.</text>
+                    <text x="20" y="155" fontFamily="Geist Mono, monospace" fontSize="8" fill="#6f6957" letterSpacing="0.5">KÜÇÜK ÇAMLICA MH.</text>
                   </svg>
                   <div className="pin" aria-hidden="true"></div>
-                  <div className="label">PIRAN · MASLAK / 8</div>
+                  <div className="label">PIRAN · K. ÇAMLICA / 52</div>
                 </div>
 
               </aside>
@@ -242,14 +304,14 @@ export default function Page() {
                   <span data-tr>Bina fotoğrafları ve adres bilgisiyle hızlı bir keşif değerlendirmesi için.</span>
                   <span data-en>Send building photos and address — we'll do a rapid first read.</span>
                 </p>
-                <a href="https://wa.me/902120000000" style={{marginTop: "auto", paddingTop: "20px", fontFamily: "var(--font-mono)", fontSize: "11.5px", letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--accent)"}}>+90 212 000 00 00 ↗</a>
+                <a href="https://wa.me/908503464652" style={{marginTop: "auto", paddingTop: "20px", fontFamily: "var(--font-mono)", fontSize: "11.5px", letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--accent)"}}>0850 346 46 52 ↗</a>
               </article>
               <article className="principle-card">
                 <div className="index">— 02</div>
                 <h3><span data-tr>Ofise Geliş</span><span data-en>Walk-in</span></h3>
                 <p>
-                  <span data-tr>Maslak Mah. AOS No: 8. Randevusuz geliş kabul ediyoruz; çayımız hazır.</span>
-                  <span data-en>Maslak Mah. AOS No: 8. Walk-ins welcome; the tea is ready.</span>
+                  <span data-tr>Küçük Çamlıca Mah. Libadiye Cad. No 52 Üsküdar / İstanbul. Randevusuz geliş kabul ediyoruz; çayımız hazır.</span>
+                  <span data-en>Küçük Çamlıca Mah. Libadiye Cad. No 52 Üsküdar / İstanbul. Walk-ins welcome; the tea is ready.</span>
                 </p>
                 <span style={{marginTop: "auto", paddingTop: "20px", fontFamily: "var(--font-mono)", fontSize: "11.5px", letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--accent)"}}><span data-tr>Pzt–Cum 09:00–18:30</span><span data-en>Mon–Fri 09:00–18:30</span></span>
               </article>

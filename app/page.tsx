@@ -4,8 +4,25 @@ import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title:
-    "Piran Gayrimenkul — İstanbul Kentsel Dönüşüm, Değerleme, İnşaat ve Yatırım Danışmanlığı",
-  alternates: { canonical: "https://www.pirangyd.com/" },
+    "Kentsel Dönüşüm İstanbul · Piran Gayrimenkul — Risk Raporundan Anahtar Teslime",
+  description:
+    "İstanbul'da kentsel dönüşüm danışmanlığı. 6306 ve 7471 sayılı kanun süreçleri, risk raporu, salt çoğunluk anlaşması, hibe + kira yardımı, Yarısı Bizden kampanyası, anahtar teslim inşaat. 15+ yıl deneyim, lisanslı ekip, Üsküdar Küçük Çamlıca ofis. Ücretsiz keşif.",
+  alternates: {
+    canonical: "https://www.pirangyd.com/",
+    languages: {
+      tr: "https://www.pirangyd.com/",
+      en: "https://www.pirangyd.com/?lang=en",
+      "x-default": "https://www.pirangyd.com/",
+    },
+  },
+  openGraph: {
+    title:
+      "Kentsel Dönüşüm İstanbul · Piran Gayrimenkul",
+    description:
+      "15+ yıllık kentsel dönüşüm danışmanlığı. Risk raporundan anahtar teslime kadar tek muhatap. Yarısı Bizden + İstanbul 3M TL destek paketi süreçleri.",
+    url: "https://www.pirangyd.com/",
+    type: "website",
+  },
 };
 
 const FAQ_JSON_LD = {
@@ -18,7 +35,7 @@ const FAQ_JSON_LD = {
       acceptedAnswer: {
         "@type": "Answer",
         text:
-          "Bakanlık lisanslı kuruluşlardan Deprem Risk Raporu alınır. Bina riskli çıkarsa 6306 sayılı kanun kapsamına girer.",
+          "Bakanlık lisanslı kuruluşlardan Deprem Risk Raporu alınır. Bina riskli çıkarsa 6306 sayılı kanun kapsamına girer ve kentsel dönüşüm hak ve desteklerinden faydalanabilirsiniz.",
       },
     },
     {
@@ -27,24 +44,118 @@ const FAQ_JSON_LD = {
       acceptedAnswer: {
         "@type": "Answer",
         text:
-          "Riskli yapı ilan edilen binalarda 18 aya kadar kira yardımı verilir.",
+          "Riskli yapı ilan edilen binalarda Çevre, Şehircilik ve İklim Değişikliği Bakanlığı tarafından 18 aya kadar kira yardımı verilir. Hem malik hem kiracı hisseleri oranında ve yıllık güncel bedel üzerinden faydalanır.",
       },
     },
     {
       "@type": "Question",
-      name: "Süreç ne kadar sürer?",
+      name: "Kentsel dönüşüm süreci ne kadar sürer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Risk raporundan teslime kadar ortalama 24-36 ay.",
+        text:
+          "Risk raporundan anahtar teslime kadar tipik süre 24 ile 36 ay arasındadır. Hak sahibi sayısı, parselin imar durumu ve seçilen kalite çizgisi bu süreyi etkiler.",
       },
     },
     {
       "@type": "Question",
-      name: "2/3 çoğunluk ne anlama gelir?",
+      name: "Salt çoğunluk ne anlama gelir, anlaşmayan azınlık ne olur?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hisseleri oranında 2/3 çoğunlukla karar alınabilir.",
+        text:
+          "9 Kasım 2023'te yürürlüğe giren 7471 sayılı kanun ile 6306 sayılı kanundaki 2/3 çoğunluk şartı kaldırıldı; karar artık hisseleri oranında salt çoğunluk (yarıdan bir fazla) ile alınabiliyor. Anlaşmaya katılmayan paydaşların arsa payı, Bakanlık denetiminde rayiç bedel üzerinden açık artırma usulüyle anlaşan paydaşlara satılır.",
       },
+    },
+    {
+      "@type": "Question",
+      name: "Hibe, kredi ve faiz desteği nasıl çalışır?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Bakanlık üç farklı destek sunar: doğrudan hibe, düşük faizli kredi ve kira yardımı. Aynı kişi hibe ile kira yardımını birlikte alamaz; ancak bunlardan birini krediyle birleştirebilir.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Müteahhit seçimi ve sözleşme süreci nasıl ilerler?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Hak sahipleri, projeyi kendileri yürütebilir veya anahtar teslim usulüyle bir müteahhide devredebilir. Her iki modelde de ihale şartnamesi, teknik şartname ve sözleşme metni hazırlanır; iş ilerleme ödemeleri ve kalite kontrolü bağımsız denetlenir.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Yarısı Bizden kampanyası nedir, kim faydalanabilir?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'nın 2023'te başlattığı ve 31 Aralık 2026'ya kadar uzatılan kentsel dönüşüm destek paketidir. İstanbul'daki 39 ilçeyi kapsar. Riskli yapı raporu alan binalarda her bağımsız bölüm için 875.000 TL hibe + 875.000 TL kredi + 125.000 TL taşınma yardımı verilir.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "İstanbul'a özel 3 milyon TL'lik yeni destek paketi nedir?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text:
+          "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'nın 3 Nisan 2026'da duyurduğu, Dünya Bankası finansmanlı İklim ve Afetlere Dayanıklı Şehirler Projesi kapsamındaki yeni destek paketidir. Acil dönüşmesi gereken konutlara kadar 3 milyon TL kredi imkânı sağlar: 1 yıl ödemesiz, 180 ay vade, aylık 0,69 faizle.",
+      },
+    },
+  ],
+};
+
+/**
+ * Sitewide service catalog so each service shows as its own item in search
+ * results when people query "kentsel dönüşüm danışmanlık", "değerleme uzmanı",
+ * "anahtar teslim inşaat" etc.
+ */
+const SERVICE_CATALOG_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  itemListElement: [
+    {
+      "@type": "Service",
+      position: 1,
+      name: "Kentsel Dönüşüm Danışmanlığı",
+      provider: { "@id": "https://www.pirangyd.com/#organization" },
+      areaServed: { "@type": "City", name: "İstanbul" },
+      serviceType: "Urban Transformation Advisory",
+      description:
+        "6306 ve 7471 sayılı kanunlar kapsamında risk raporu, salt çoğunluk anlaşması, hibe ve kira yardımı başvurusu, anahtar teslim inşaat yönetimi.",
+      url: "https://www.pirangyd.com/hizmetler#kentsel-donusum",
+    },
+    {
+      "@type": "Service",
+      position: 2,
+      name: "Gayrimenkul Değerleme",
+      provider: { "@id": "https://www.pirangyd.com/#organization" },
+      areaServed: { "@type": "City", name: "İstanbul" },
+      serviceType: "Property Valuation",
+      description:
+        "SPK lisanslı uzmanlarla konut, ticari ve arsa değerleme; kredi, miras ve dava süreçleri için onaylı rapor.",
+      url: "https://www.pirangyd.com/hizmetler#degerleme",
+    },
+    {
+      "@type": "Service",
+      position: 3,
+      name: "İnşaat ve Anahtar Teslim Proje Yönetimi",
+      provider: { "@id": "https://www.pirangyd.com/#organization" },
+      areaServed: { "@type": "City", name: "İstanbul" },
+      serviceType: "Turnkey Construction Management",
+      description:
+        "Mimari ve statik projeden ruhsat, yapı denetimi, kaba inşaat, ince işler ve iskâna kadar anahtar teslim süreç.",
+      url: "https://www.pirangyd.com/hizmetler#insaat",
+    },
+    {
+      "@type": "Service",
+      position: 4,
+      name: "Yatırım Danışmanlığı",
+      provider: { "@id": "https://www.pirangyd.com/#organization" },
+      areaServed: { "@type": "City", name: "İstanbul" },
+      serviceType: "Real Estate Investment Advisory",
+      description:
+        "Bölge analizi, getiri modeli, parsel ve portföy stratejisi; aile ofisleri ve kurumsal yatırımcılar için butik danışmanlık.",
+      url: "https://www.pirangyd.com/hizmetler#yatirim",
     },
   ],
 };
@@ -68,8 +179,8 @@ const PROC_DATA_HTML = `<div data-step="0">
       <div data-step="2">
         <span data-tag-tr>03 · ANLAŞMA</span><span data-tag-en>03 · AGREEMENT</span>
         <span data-title-tr>Hak Sahipleri Anlaşması</span><span data-title-en>Stakeholder Agreement</span>
-        <span data-desc-tr>2/3 çoğunluk protokolü, pay dağılımı, kira yardımı başvurusu ve sözleşme hazırlanır. Maliklere şeffaf pay tablosu ve ödeme takvimi sunulur.</span>
-        <span data-desc-en>The 2/3 majority protocol, share allocation, rent-assistance application and contracts are drafted — every owner sees a clear share table and payment schedule.</span>
+        <span data-desc-tr>Salt çoğunluk protokolü, pay dağılımı, kira yardımı başvurusu ve sözleşme hazırlanır. Maliklere şeffaf pay tablosu ve ödeme takvimi sunulur.</span>
+        <span data-desc-en>The simple majority protocol, share allocation, rent-assistance application and contracts are drafted — every owner sees a clear share table and payment schedule.</span>
         <span data-dur-tr>2–4 ay</span><span data-dur-en>2–4 months</span>
         <span data-cost-tr>Noter onaylı</span><span data-cost-en>Notarized</span>
       </div>
@@ -107,6 +218,12 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_JSON_LD) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(SERVICE_CATALOG_JSON_LD),
+          }}
+        />
         {/* =========================================================
              HERO
              ========================================================= */}
@@ -117,9 +234,9 @@ export default function Home() {
             <div className="hero-bar">
               <div className="left">
                 <span className="dot-pulse" aria-hidden="true"></span>
-                <span data-tr>OFİS · MASLAK / İST</span><span data-en>OFFICE · MASLAK / İST</span>
+                <span data-tr>OFİS · KÜÇÜK ÇAMLICA / İST</span><span data-en>OFFICE · KÜÇÜK ÇAMLICA / İST</span>
                 <span>·</span>
-                <span data-tr>41°06′N 29°00′E</span><span data-en>41°06′N 29°00′E</span>
+                <span data-tr>41°00′N 29°03′E</span><span data-en>41°00′N 29°03′E</span>
               </div>
               <div className="center"><span data-tr>2010 → 2026 · ON BEŞİNCİ YIL</span><span data-en>2010 → 2026 · YEAR FIFTEEN</span></div>
               <div className="right">SCALE 1:1 · DRWG · PRN/2026/001</div>
@@ -142,8 +259,8 @@ export default function Home() {
                 </h1>
 
                 <p className="hero-lead">
-                  <span data-tr>Kentsel dönüşüm, değerleme, inşaat ve yatırım danışmanlığı. Risk raporundan anahtar teslime kadar her metresi tek bir sözleşme, tek bir ekip altında. Maslak'tan İstanbul'un 23 ilçesine hizmet veriyoruz.</span>
-                  <span data-en>Urban renewal, valuation, construction and investment advisory. From risk report to handover, every metre under one contract, one team. We serve 23 districts across Istanbul from our Maslak office.</span>
+                  <span data-tr>Kentsel dönüşüm, değerleme, inşaat ve yatırım danışmanlığı. Risk raporundan anahtar teslime kadar her metresi tek bir sözleşme, tek bir ekip altında. İstanbul&apos;un 23 ilçesine Ekşioğlu Grup güvencesiyle hizmet veriyoruz.</span>
+                  <span data-en>Urban renewal, valuation, construction and investment advisory. From risk report to handover, every metre under one contract, one team. Serving 23 districts across Istanbul with the assurance of Ekşioğlu Grup.</span>
                 </p>
 
                 <div className="hero-cta">
@@ -379,7 +496,7 @@ export default function Home() {
                 </p>
                 <div className="tags">
                   <span className="tag"><span data-tr>Risk Raporu</span><span data-en>Risk Report</span></span>
-                  <span className="tag"><span data-tr>2/3 Çoğunluk</span><span data-en>2/3 Majority</span></span>
+                  <span className="tag"><span data-tr>Salt Çoğunluk</span><span data-en>Simple Majority</span></span>
                   <span className="tag"><span data-tr>Kira Yardımı</span><span data-en>Rent Aid</span></span>
                   <span className="tag"><span data-tr>Yarısı Bizden</span><span data-en>Half-Funded</span></span>
                 </div>
@@ -760,9 +877,9 @@ export default function Home() {
 
                   {/* Notes column */}
                   <div className="bldg-notes" aria-hidden="true">
-                    <div className="bldg-note"><strong>06 · ROOF</strong><span data-tr>İskân + tapu</span><span data-en>Permit + title</span></div>
+                    <div className="bldg-note"><strong><span data-tr>06 · ÇATI</span><span data-en>06 · ROOF</span></strong><span data-tr>İskân + tapu</span><span data-en>Permit + title</span></div>
                     <div className="bldg-note"><strong>05 · İNŞAAT</strong><span data-tr>14–22 ay</span><span data-en>14–22 mo</span></div>
-                    <div className="bldg-note"><strong>04 · DESIGN</strong><span data-tr>3–5 ay</span><span data-en>3–5 mo</span></div>
+                    <div className="bldg-note"><strong><span data-tr>04 · TASARIM</span><span data-en>04 · DESIGN</span></strong><span data-tr>3–5 ay</span><span data-en>3–5 mo</span></div>
                     <div className="bldg-note"><strong>03 · ANLAŞMA</strong><span data-tr>2–4 ay</span><span data-en>2–4 mo</span></div>
                     <div className="bldg-note"><strong>02 · TEST</strong><span data-tr>3–6 hafta</span><span data-en>3–6 wk</span></div>
                     <div className="bldg-note"><strong>01 · TESPİT</strong><span data-tr>5–10 gün</span><span data-en>5–10 days</span></div>
@@ -902,15 +1019,15 @@ export default function Home() {
                   <button className="faq-q" type="button" aria-expanded="false">
                     <span className="num">Q · 04</span>
                     <span>
-                      <span data-tr>2/3 çoğunluk nedir, anlaşmayan azınlık ne olur?</span>
-                      <span data-en>What is the 2/3 majority — and what happens to dissenters?</span>
+                      <span data-tr>Salt çoğunluk nedir, anlaşmayan azınlık ne olur?</span>
+                      <span data-en>What is the simple majority — and what happens to dissenters?</span>
                     </span>
                     <span className="ico" aria-hidden="true"></span>
                   </button>
                   <div className="faq-a"><div><div className="faq-a-inner">
                     <p>
-                      <span data-tr>Riskli yapı ilan edilen bir binada hisseleri oranında 2/3 çoğunluk karar alabilir. Katılmayan 1/3 azınlığın arsa payı, anlaşan paydaşlara açık artırma usulüyle satılır. Bakanlık bu süreci denetler; Piran, hukuki ve teknik tarafı sizin adınıza yürütür.</span>
-                      <span data-en>In a "risky" building, a 2/3 share majority can decide. The dissenting 1/3's land share is auctioned to the agreeing parties under Ministry supervision.</span>
+                      <span data-tr>9 Kasım 2023&apos;te yürürlüğe giren 7471 sayılı kanun ile 6306 sayılı kanundaki 2/3 çoğunluk şartı kaldırıldı; karar artık hisseleri oranında <strong>salt çoğunluk</strong> (yarıdan bir fazla) ile alınabiliyor. Anlaşmaya katılmayan paydaşların arsa payı, Bakanlık denetiminde rayiç bedel üzerinden açık artırma usulüyle anlaşan paydaşlara satılır. Piran, hukuki ve teknik tarafı sizin adınıza yürütür.</span>
+                      <span data-en>Law 7471 (in force since 9 November 2023) removed the 2/3 majority requirement of Law 6306; decisions can now be made by a <strong>simple share majority</strong> (one more than half). Shares of stakeholders who do not join the agreement are sold to the agreeing parties by public auction at market value under Ministry supervision. Piran handles the legal and technical work on your behalf.</span>
                     </p>
                   </div></div></div>
                 </div>
@@ -919,15 +1036,15 @@ export default function Home() {
                   <button className="faq-q" type="button" aria-expanded="false">
                     <span className="num">Q · 05</span>
                     <span>
-                      <span data-tr>"Yarısı Bizden" devlet desteği nedir?</span>
-                      <span data-en>What is the "Half from Us" government support?</span>
+                      <span data-tr>Hibe, kredi ve faiz desteği nasıl çalışır?</span>
+                      <span data-en>How do grants, credit and interest subsidy work?</span>
                     </span>
                     <span className="ico" aria-hidden="true"></span>
                   </button>
                   <div className="faq-a"><div><div className="faq-a-inner">
                     <p>
-                      <span data-tr>Devletin riskli yapıların yenilenmesi için yapım maliyetinin yarısına kadar destek sağladığı programdır. Şartları sağlayan binalar için Piran, başvuru dosyasını hazırlar, banka protokollerini yönetir ve geri ödeme planını malik bazında çıkarır.</span>
-                      <span data-en>A government programme that covers up to half of construction costs for qualifying risky buildings. Piran prepares the application, manages bank protocols and produces a per-owner repayment plan.</span>
+                      <span data-tr>Bakanlık üç farklı destek sunar: doğrudan hibe, düşük faizli kredi ve kira yardımı. Aynı kişi hibe ile kira yardımını birlikte alamaz; ancak bunlardan birini krediyle birleştirebilir. Piran, kendi finansman profilinize göre en uygun karışımı hesaplar ve başvuru evraklarını biz hazırlarız.</span>
+                      <span data-en>The Ministry offers three instruments: a direct grant, a low-rate loan and rent assistance. The same person cannot stack a grant with rent assistance, but either can be combined with the loan. Piran models the optimal mix for your financial profile and handles the paperwork.</span>
                     </p>
                   </div></div></div>
                 </div>
@@ -936,15 +1053,49 @@ export default function Home() {
                   <button className="faq-q" type="button" aria-expanded="false">
                     <span className="num">Q · 06</span>
                     <span>
-                      <span data-tr>Müteahhit ile aramda bir sorun çıkarsa?</span>
-                      <span data-en>What if there's a dispute with the contractor?</span>
+                      <span data-tr>Müteahhit seçimi ve sözleşme süreci nasıl ilerler?</span>
+                      <span data-en>How does contractor selection and contracting work?</span>
                     </span>
                     <span className="ico" aria-hidden="true"></span>
                   </button>
                   <div className="faq-a"><div><div className="faq-a-inner">
                     <p>
-                      <span data-tr>Piran modelinde müteahhit ve danışman aynı çatı altındadır — sorumluluk paslaşılmaz. Yine de uyuşmazlık halinde bağımsız yapı denetim raporu, mesleki sorumluluk sigortası ve sözleşmedeki tahkim maddeleri devreye girer.</span>
-                      <span data-en>In the Piran model the contractor and the advisor sit under one roof — accountability doesn't get passed around. If a dispute does arise, independent inspection, professional liability insurance and the contract's arbitration clause kick in.</span>
+                      <span data-tr>Hak sahipleri, projeyi kendileri yürütebileceği gibi, anahtar teslim usulüyle bir müteahhide de devredebilir. Piran her iki modelde de ihale şartnamesi, teknik şartname ve sözleşme metnini hazırlar; iş ilerleme ödemelerini, kalite kontrolünü ve teslim öncesi kabulü bağımsız olarak denetler.</span>
+                      <span data-en>Owners can either run construction themselves or hand it over to a turnkey contractor. Piran prepares the tender, technical specification and contract for both models — and independently audits progress payments, quality control and pre-handover acceptance.</span>
+                    </p>
+                  </div></div></div>
+                </div>
+
+                <div className="faq-item" role="listitem">
+                  <button className="faq-q" type="button" aria-expanded="false">
+                    <span className="num">Q · 07</span>
+                    <span>
+                      <span data-tr>&quot;Yarısı Bizden&quot; kampanyası nedir, kim faydalanabilir?</span>
+                      <span data-en>What is the &quot;Yarısı Bizden&quot; campaign and who can benefit?</span>
+                    </span>
+                    <span className="ico" aria-hidden="true"></span>
+                  </button>
+                  <div className="faq-a"><div><div className="faq-a-inner">
+                    <p>
+                      <span data-tr>Çevre, Şehircilik ve İklim Değişikliği Bakanlığı&apos;nın 2023&apos;te başlattığı ve 31 Aralık 2026&apos;ya kadar uzatılan kentsel dönüşüm destek paketidir. İstanbul&apos;daki 39 ilçeyi kapsar. Riskli yapı raporu alan binalarda her bağımsız bölüm için 875.000 TL hibe + 875.000 TL kredi + 125.000 TL taşınma yardımı verilir. Başvuru ve evrak süreçlerinin tamamını biz yönetiyoruz. Detaylı bilgi için Bakanlığın <a href="https://www.csb.gov.tr/yarisi-bizden-de-merak-edilen-sorular-ve-yanitlari-bakanlik-faaliyetleri-41630" target="_blank" rel="noopener noreferrer">kampanya sayfasına</a> bakabilirsiniz.</span>
+                      <span data-en>A Ministry of Environment, Urbanism &amp; Climate Change program launched in 2023, extended through 31 December 2026. It covers 39 districts of Istanbul. Each unit in a building with a risk report receives ₺875,000 grant + ₺875,000 credit + ₺125,000 relocation assistance. We manage the entire application and paperwork on your behalf. See the Ministry&apos;s <a href="https://www.csb.gov.tr/yarisi-bizden-de-merak-edilen-sorular-ve-yanitlari-bakanlik-faaliyetleri-41630" target="_blank" rel="noopener noreferrer">official campaign page</a> for details.</span>
+                    </p>
+                  </div></div></div>
+                </div>
+
+                <div className="faq-item" role="listitem">
+                  <button className="faq-q" type="button" aria-expanded="false">
+                    <span className="num">Q · 08</span>
+                    <span>
+                      <span data-tr>İstanbul&apos;a özel 3 milyon TL&apos;lik yeni destek paketi nedir?</span>
+                      <span data-en>What is the new ₺3 million Istanbul support package?</span>
+                    </span>
+                    <span className="ico" aria-hidden="true"></span>
+                  </button>
+                  <div className="faq-a"><div><div className="faq-a-inner">
+                    <p>
+                      <span data-tr>Çevre, Şehircilik ve İklim Değişikliği Bakanlığı&apos;nın 3 Nisan 2026&apos;da duyurduğu, Dünya Bankası finansmanlı &quot;İklim ve Afetlere Dayanıklı Şehirler Projesi&quot; kapsamındaki yeni destek paketidir. Acil dönüşmesi gereken konutlara kadar 3 milyon TL kredi imkânı sağlar: inşaat süresince 1 yıl ödemesiz, 180 ay (15 yıl) vade ve aylık 0,69 faizle (yıllık maliyet %10&apos;un altında). Başvurular Bakanlık duyurusu ile birlikte açıldı. <a href="https://csb.gov.tr/haberler/bakan-kurum-istanbul-un-donusumu-icin-yeni-destek-paketini-acikladi-304634" target="_blank" rel="noopener noreferrer">Bakanlık duyurusu</a>.</span>
+                      <span data-en>Announced by the Ministry of Environment, Urbanism &amp; Climate Change on 3 April 2026 under the World Bank-funded &quot;Climate and Disaster-Resilient Cities Project&quot;. Provides up to ₺3 million in credit support for residences requiring urgent transformation: 1 year payment-free during construction, 180-month (15-year) maturity, monthly 0.69% interest (annual cost below 10%). Applications opened with the Ministry announcement. <a href="https://csb.gov.tr/haberler/bakan-kurum-istanbul-un-donusumu-icin-yeni-destek-paketini-acikladi-304634" target="_blank" rel="noopener noreferrer">Ministry announcement</a>.</span>
                     </p>
                   </div></div></div>
                 </div>
@@ -955,37 +1106,35 @@ export default function Home() {
         </section>
 
         {/* =========================================================
-             CTA — Terracotta full-bleed
+             CTA — full-bleed accent
              ========================================================= */}
         <section className="cta" aria-labelledby="cta-h">
           <div className="shell">
             <div className="cta-grid">
               <div>
-                <div className="meta-line">
-                  <span className="chip">06</span>
-                  <span data-tr>İletişim · Başlangıç</span><span data-en>Contact · Start Here</span>
+                <div className="meta-line eyebrow" style={{marginBottom: "20px", color: "rgba(255,255,255,.55)"}}>
+                  <span data-tr>06 · İLK ADIM</span><span data-en>06 · NEXT STEP</span>
                 </div>
                 <h2 id="cta-h">
-                  <span data-tr>Binanız hangi <span className="knockout">faz</span>'da olursa olsun, <span className="knockout">başlayabiliriz.</span></span>
-                  <span data-en>Wherever your <span className="knockout">building</span> is on the timeline, <span className="knockout">we can start.</span></span>
+                  <span data-tr>Binanız sürecin <span className="knockout">neresinde</span> olursa olsun, <span className="knockout">başlayabiliriz.</span></span>
+                  <span data-en>Wherever your <span className="knockout">building</span> is in the process, <span className="knockout">we can start.</span></span>
                 </h2>
                 <p className="lead">
-                  <span data-tr>İlk değerlendirme ücretsizdir. Adres ve kısa bilgi bırakın; 24 saat içinde IRATA sertifikalı keşif ekibimizle randevu planlayın.</span>
-                  <span data-en>The first consultation is free. Share an address and a short note — we'll line up a site visit within 24 hours.</span>
+                  <span data-tr>İlk değerlendirme ücretsizdir. Adres ve kısa bilginizi bırakın; 24 saat içinde lisanslı keşif ekibimizle randevunuzu planlayalım.</span>
+                  <span data-en>The first consultation is free. Share an address and a short note — we&apos;ll line up a site visit within 24 hours.</span>
                 </p>
               </div>
               <div className="cta-actions">
                 <span className="label"><span data-tr>Doğrudan arayın</span><span data-en>Call us directly</span></span>
-                <a href="tel:+902120000000" className="phone">+90 212 000 00 00</a>
+                <a href="tel:+908503464652" className="phone">0850 346 46 52</a>
                 <a href="/iletisim" className="btn btn-primary" style={{marginTop: "8px"}}>
                   <span data-tr>Keşif planla</span><span data-en>Book a site visit</span>
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M5 12h14M13 5l7 7-7 7" /></svg>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M5 12h14M13 5l7 7-7 7" /></svg>
                 </a>
               </div>
             </div>
-
             <dl className="cta-meta">
-              <div><dt><span data-tr>Adres</span><span data-en>Address</span></dt><dd>Maslak Mah. AOS No: 8<br />Sarıyer / İstanbul</dd></div>
+              <div><dt><span data-tr>Adres</span><span data-en>Address</span></dt><dd>Küçük Çamlıca Mah. Libadiye Cad. No 52<br />Üsküdar / İstanbul</dd></div>
               <div><dt><span data-tr>E-posta</span><span data-en>Email</span></dt><dd>info@pirangyd.com</dd></div>
               <div><dt><span data-tr>Çalışma saatleri</span><span data-en>Hours</span></dt><dd><span data-tr>Pzt–Cum · 09:00–18:30</span><span data-en>Mon–Fri · 09:00–18:30</span></dd></div>
               <div><dt><span data-tr>Yanıt</span><span data-en>Response</span></dt><dd><span data-tr>24 saat içinde</span><span data-en>Within 24 hours</span></dd></div>

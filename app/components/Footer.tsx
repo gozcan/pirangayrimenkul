@@ -87,10 +87,9 @@ export default function Footer() {
               <span data-en>Contact</span>
             </h4>
             <ul>
-              <li>+90 212 000 00 00</li>
+              <li>0850 346 46 52</li>
               <li>info@pirangyd.com</li>
-              <li>Maslak, İstanbul</li>
-              <li>LinkedIn · Instagram</li>
+              <li>Küçük Çamlıca, Üsküdar</li>
             </ul>
           </div>
         </div>
@@ -111,6 +110,43 @@ export default function Footer() {
               <span data-en>COOKIES</span>
             </a>
           </div>
+        </div>
+        <div
+          style={{
+            opacity: 0.7,
+            fontSize: 13,
+            marginTop: 16,
+            display: "flex",
+            flexWrap: "wrap",
+            gap: 18,
+            alignItems: "center",
+          }}
+        >
+          <span>
+            <span data-tr>Piran bir</span>
+            <span data-en>Piran is part of</span>{" "}
+            <a
+              href="https://eksioglugrup.tr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "underline", textUnderlineOffset: 3 }}
+            >
+              Ekşioğlu Grup
+            </a>{" "}
+            <span data-tr>şirketidir.</span>
+            <span data-en>group.</span>
+          </span>
+          <span style={{ opacity: 0.65 }}>
+            Design ·{" "}
+            <a
+              href="https://www.ponton.com.tr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "underline", textUnderlineOffset: 3 }}
+            >
+              Ponton Studio
+            </a>
+          </span>
         </div>
       </div>
     </footer>

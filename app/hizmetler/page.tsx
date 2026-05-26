@@ -3,9 +3,56 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Hizmetler — Piran Gayrimenkul",
-  description: "Kentsel dönüşüm, gayrimenkul değerleme, inşaat ve yatırım danışmanlığı hizmetlerimiz.",
-  alternates: { canonical: "https://www.pirangyd.com/hizmetler" },
+  title:
+    "Kentsel Dönüşüm, Değerleme, İnşaat ve Yatırım Hizmetleri",
+  description:
+    "İstanbul'da kentsel dönüşüm danışmanlığı, SPK lisanslı gayrimenkul değerleme, anahtar teslim inşaat ve yatırım danışmanlığı. 6306-7471 sayılı kanun süreçleri, risk raporu, salt çoğunluk, hibe ve kira yardımı.",
+  keywords: [
+    "kentsel dönüşüm danışmanlığı",
+    "İstanbul kentsel dönüşüm şirketi",
+    "Üsküdar kentsel dönüşüm",
+    "Anadolu Yakası kentsel dönüşüm",
+    "SPK lisanslı değerleme",
+    "gayrimenkul değerleme İstanbul",
+    "anahtar teslim inşaat",
+    "müteahhit danışmanlık",
+    "yatırım danışmanlığı",
+    "Yarısı Bizden",
+    "kira yardımı başvurusu",
+  ],
+  alternates: {
+    canonical: "https://www.pirangyd.com/hizmetler",
+    languages: {
+      tr: "https://www.pirangyd.com/hizmetler",
+      en: "https://www.pirangyd.com/hizmetler?lang=en",
+    },
+  },
+  openGraph: {
+    title: "Kentsel Dönüşüm, Değerleme, İnşaat ve Yatırım Hizmetleri",
+    description:
+      "İstanbul'da risk raporundan anahtar teslime kadar dört hizmet, tek muhatap.",
+    url: "https://www.pirangyd.com/hizmetler",
+    type: "website",
+  },
+};
+
+const BREADCRUMB_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Anasayfa",
+      item: "https://www.pirangyd.com/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Hizmetler",
+      item: "https://www.pirangyd.com/hizmetler",
+    },
+  ],
 };
 
 export default function Page() {
@@ -13,11 +60,17 @@ export default function Page() {
     <>
       <Nav />
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(BREADCRUMB_JSON_LD),
+          }}
+        />
         {/* Page hero */}
         <section className="page-hero">
           <div className="shell">
             <div className="page-hero-bar">
-              <div className="left"><span className="dot-pulse"></span>&nbsp;&nbsp;OFİS · MASLAK / İST · 41°06′N 29°00′E</div>
+              <div className="left"><span className="dot-pulse"></span>&nbsp;&nbsp;OFİS · KÜÇÜK ÇAMLICA / İST · 41°00′N 29°03′E</div>
               <div className="center"><span data-tr>HİZMETLER · DÖRT DİSİPLİN</span><span data-en>SERVICES · FOUR DISCIPLINES</span></div>
               <div className="right">SCALE 1:1 · DRWG · PRN/2026/SVC</div>
             </div>
@@ -108,7 +161,7 @@ export default function Page() {
 
                 <div className="svc-list">
                   <div className="item"><div className="n">01</div><div><h4><span data-tr>Riskli Yapı Tespiti</span><span data-en>Risky-Building Assessment</span></h4><p><span data-tr>Bakanlık lisanslı kuruluş, karot ve statik analiz, idare onayı.</span><span data-en>Ministry-licensed lab, core sampling, structural analysis, authority filing.</span></p></div></div>
-                  <div className="item"><div className="n">02</div><div><h4><span data-tr>Hak Sahipleri Yönetimi</span><span data-en>Stakeholder Management</span></h4><p><span data-tr>2/3 çoğunluk toplantısı, pay tablosu, noter sözleşmesi, anlaşmazlık çözümü.</span><span data-en>2/3 majority meetings, share allocation table, notarized contracts, dispute resolution.</span></p></div></div>
+                  <div className="item"><div className="n">02</div><div><h4><span data-tr>Hak Sahipleri Yönetimi</span><span data-en>Stakeholder Management</span></h4><p><span data-tr>Salt çoğunluk toplantısı, pay tablosu, noter sözleşmesi, anlaşmazlık çözümü.</span><span data-en>Simple majority meetings, share allocation table, notarized contracts, dispute resolution.</span></p></div></div>
                   <div className="item"><div className="n">03</div><div><h4><span data-tr>Kira Yardımı &amp; Faiz Desteği</span><span data-en>Rent Aid &amp; Subsidy</span></h4><p><span data-tr>Bakanlık başvurusu, 18 ay kira yardımı, anlaşmalı banka faiz desteği.</span><span data-en>Ministry application, 18-month rent assistance, partner-bank interest subsidy.</span></p></div></div>
                   <div className="item"><div className="n">04</div><div><h4><span data-tr>"Yarısı Bizden" Programı</span><span data-en>"Half from Us" Programme</span></h4><p><span data-tr>Düşük gelirli vatandaşlar için yapım maliyetinin %50'sine kadar devlet desteği.</span><span data-en>Up to 50% construction-cost support for qualifying low-income owners.</span></p></div></div>
                   <div className="item"><div className="n">05</div><div><h4><span data-tr>Yıkım &amp; Ruhsat</span><span data-en>Demolition &amp; Permits</span></h4><p><span data-tr>Yıkım ruhsatı, çevre güvenliği, atık yönetimi, yeni yapı ruhsatı.</span><span data-en>Demolition permit, environmental safety, waste management, new build permit.</span></p></div></div>
@@ -291,7 +344,7 @@ export default function Page() {
               </div>
               <div className="cta-actions">
                 <span className="label"><span data-tr>Doğrudan arayın</span><span data-en>Call us directly</span></span>
-                <a href="tel:+902120000000" className="phone">+90 212 000 00 00</a>
+                <a href="tel:+908503464652" className="phone">0850 346 46 52</a>
                 <a href="/iletisim" className="btn btn-primary"><span data-tr>Keşif planla</span><span data-en>Book a visit</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M5 12h14M13 5l7 7-7 7" /></svg></a>
               </div>
             </div>
