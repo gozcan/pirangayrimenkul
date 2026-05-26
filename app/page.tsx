@@ -304,9 +304,9 @@ export default function Home() {
                   <span className="corner br" aria-hidden="true"></span>
 
                   <div className="bldg-meta">
-                    <div><strong>FRAME</strong><br />RC · A1</div>
-                    <div><strong>STOREYS</strong><br />06 + ZEMİN</div>
-                    <div><strong>HEIGHT</strong><br />22.40 m</div>
+                    <div><strong><span data-tr>STRÜKTÜR</span><span data-en>FRAME</span></strong><br />RC · A1</div>
+                    <div><strong><span data-tr>KAT</span><span data-en>STOREYS</span></strong><br /><span data-tr>06 + ZEMİN</span><span data-en>6 + GROUND</span></div>
+                    <div><strong><span data-tr>YÜKSEKLİK</span><span data-en>HEIGHT</span></strong><br />22.40 m</div>
                   </div>
 
                   <div className="bldg-svg-wrap" aria-hidden="true">
