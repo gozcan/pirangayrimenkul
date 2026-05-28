@@ -168,8 +168,8 @@ export default function Nav({ ctaToForm = false }: NavProps) {
             </button>
             <button data-lang-btn="en">EN</button>
           </div>
-          <a href="tel:+902120000000" className="mm-phone">
-            +90 212 000 00 00
+          <a href="tel:+908503464652" className="mm-phone">
+            0850 346 46 52
           </a>
         </div>
       </div>

@@ -100,15 +100,15 @@ export default function Footer() {
             <span data-en>ALL RIGHTS RESERVED</span>
           </div>
           <div style={{ display: "flex", gap: 24 }}>
-            <a href="#">
+            <Link href="/gizlilik">
               <span data-tr>GİZLİLİK</span>
               <span data-en>PRIVACY</span>
-            </a>
-            <a href="#">KVKK</a>
-            <a href="#">
+            </Link>
+            <Link href="/kvkk">KVKK</Link>
+            <Link href="/cerez-politikasi">
               <span data-tr>ÇEREZ POLİTİKASI</span>
               <span data-en>COOKIES</span>
-            </a>
+            </Link>
           </div>
         </div>
         <div

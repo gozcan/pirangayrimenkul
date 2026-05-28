@@ -71,5 +71,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
       },
     },
+    {
+      url: `${BASE}/gizlilik`,
+      lastModified: new Date("2026-05-26"),
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
+    {
+      url: `${BASE}/kvkk`,
+      lastModified: new Date("2026-05-26"),
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
+    {
+      url: `${BASE}/cerez-politikasi`,
+      lastModified: new Date("2026-05-26"),
+      changeFrequency: "yearly",
+      priority: 0.2,
+    },
   ];
 }
