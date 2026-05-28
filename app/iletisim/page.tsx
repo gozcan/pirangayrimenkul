@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
 
 export const metadata: Metadata = {
   title: "İletişim — Ücretsiz Kentsel Dönüşüm Keşfi",
@@ -144,65 +145,7 @@ export default function Page() {
           <div className="shell">
             <div className="contact-grid">
               {/* LEFT: form */}
-              <form className="contact-form" data-piran-form aria-labelledby="form-h">
-                <h2 id="form-h">
-                  <span data-tr>Form doldurun, <span style={{color: "var(--accent)"}}>4 saatte arayalım.</span></span>
-                  <span data-en>Fill the form, <span style={{color: "var(--accent)"}}>we'll call in 4 hours.</span></span>
-                </h2>
-                <p className="lead">
-                  <span data-tr>Binanız hangi aşamada olursa olsun — riskli yapı tespitinden teslime kadar — başlangıç noktanızı birlikte belirleyelim.</span>
-                  <span data-en>Wherever your building stands — from risk assessment to handover — let's locate your starting point together.</span>
-                </p>
-
-                <div className="form-grid">
-                  <div className="field">
-                    <label htmlFor="name"><span data-tr>Ad Soyad *</span><span data-en>Full name *</span></label>
-                    <input id="name" name="name" type="text" required data-tr-placeholder="Ad Soyad" data-en-placeholder="Full name" placeholder="Ad Soyad" />
-                  </div>
-                  <div className="field">
-                    <label htmlFor="phone"><span data-tr>Telefon *</span><span data-en>Phone *</span></label>
-                    <input id="phone" name="phone" type="tel" required data-tr-placeholder="+90 ___ ___ __ __" data-en-placeholder="+90 ___ ___ __ __" placeholder="+90 ___ ___ __ __" />
-                  </div>
-                  <div className="field">
-                    <label htmlFor="email"><span data-tr>E-posta</span><span data-en>Email</span></label>
-                    <input id="email" name="email" type="email" data-tr-placeholder="ornek@eposta.com" data-en-placeholder="you@example.com" placeholder="ornek@eposta.com" />
-                  </div>
-                  <div className="field">
-                    <label htmlFor="service"><span data-tr>İlgilendiğim hizmet *</span><span data-en>Service *</span></label>
-                    <select id="service" name="service" required>
-                      <option value=""><span data-tr>Seçiniz</span></option>
-                      <option value="kd"><span data-tr>Kentsel Dönüşüm</span></option>
-                      <option value="dg">Değerleme</option>
-                      <option value="ins">İnşaat</option>
-                      <option value="yat">Yatırım Danışmanlığı</option>
-                      <option value="other">Diğer</option>
-                    </select>
-                  </div>
-                  <div className="field full">
-                    <label htmlFor="address"><span data-tr>Bina adresi (ilçe / mahalle yeterli)</span><span data-en>Building address (district / neighbourhood is enough)</span></label>
-                    <input id="address" name="address" type="text" data-tr-placeholder="Örn: Kadıköy / Caddebostan" data-en-placeholder="e.g. Kadıköy / Caddebostan" placeholder="Örn: Kadıköy / Caddebostan" />
-                  </div>
-                  <div className="field full">
-                    <label htmlFor="msg"><span data-tr>Kısaca durum</span><span data-en>Brief description</span></label>
-                    <textarea id="msg" name="msg" rows={5} data-tr-placeholder="Binanız hakkında bildikleriniz (yıl, kat sayısı, hak sahibi sayısı, mevcut durum)…" data-en-placeholder="What you know about the building (year, floors, owners, current status)…" placeholder="Binanız hakkında bildikleriniz…"></textarea>
-                  </div>
-                </div>
-
-                <div className="submit-row">
-                  <p className="legal">
-                    <span data-tr>Bilgileriniz yalnızca size dönüş yapmak için kullanılır. KVKK aydınlatma metnimizi okudum.</span>
-                    <span data-en>Your details are used only to contact you. I've read the KVKK privacy notice.</span>
-                  </p>
-                  <button type="submit" className="btn btn-accent">
-                    <span data-tr>Gönder</span><span data-en>Send</span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M5 12h14M13 5l7 7-7 7" /></svg>
-                  </button>
-                </div>
-
-                <div className="form-status" data-form-status role="status" aria-live="polite">
-                  ✓ <span data-tr>Form alındı. 4 saat içinde sizi arıyoruz.</span><span data-en>Received. We'll call you within 4 hours.</span>
-                </div>
-              </form>
+              <ContactForm />
 
               {/* RIGHT: contact side */}
               <aside className="contact-side">
@@ -222,7 +165,7 @@ export default function Page() {
                 <div className="contact-card">
                   <h3><span data-tr>Küçük Çamlıca Ofis</span><span data-en>Küçük Çamlıca Office</span></h3>
                   <span className="big">Küçük Çamlıca Mah. Libadiye Cad. No 52 Üsküdar / İstanbul</span>
-                  <div className="sub">Sarıyer / İstanbul · 34485</div>
+                  <div className="sub">Üsküdar / İstanbul · 34696</div>
                 </div>
 
                 {/* Map placeholder */}
