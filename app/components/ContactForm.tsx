@@ -280,7 +280,7 @@ export default function ContactForm() {
             transition: "opacity .25s ease",
           }}
         >
-          {status.state !== "idle" ? status.msg : ""}
+          {status.state === "ok" || status.state === "error" ? status.msg : ""}
         </p>
       </div>
     </form>
