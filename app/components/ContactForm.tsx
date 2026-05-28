@@ -20,10 +20,12 @@ export default function ContactForm() {
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (status.state === "submitting") return;
+    // Capture the form node BEFORE the await — React clears `e.currentTarget`
+    // once the handler yields, so reading it later would throw.
+    const formEl = e.currentTarget;
     setStatus({ state: "submitting" });
 
-    const fd = new FormData(e.currentTarget);
-    // Honeypot — if filled, the API silently accepts and drops.
+    const fd = new FormData(formEl);
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
@@ -38,7 +40,7 @@ export default function ContactForm() {
           state: "ok",
           msg: "Mesajınız iletildi. En geç 4 saat içinde dönüş yapacağız.",
         });
-        e.currentTarget.reset();
+        formEl.reset();
       } else {
         setStatus({
           state: "error",
@@ -47,16 +49,16 @@ export default function ContactForm() {
             "Bir aksaklık oluştu. Lütfen birkaç dakika sonra tekrar deneyin.",
         });
       }
-    } catch {
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error("[contact] submit failed", err);
       setStatus({
         state: "error",
-        msg: "Ağ hatası. Bağlantınızı kontrol edip tekrar deneyin.",
+        msg: "Bağlantı hatası. Lütfen birkaç dakika sonra tekrar deneyin.",
       });
     }
   }
 
-  const isOk = status.state === "ok";
-  const isErr = status.state === "error";
   const isSubmitting = status.state === "submitting";
 
   return (
@@ -268,17 +270,10 @@ export default function ContactForm() {
         <p
           className="form-status"
           data-form-status
+          data-state={status.state}
           role="status"
           aria-live="polite"
-          style={{
-            opacity: status.state === "idle" ? 0 : 1,
-            color: isErr
-              ? "var(--accent)"
-              : isOk
-              ? "var(--ink)"
-              : "var(--muted)",
-            transition: "opacity .25s ease",
-          }}
+          style={{ opacity: status.state === "idle" ? 0 : 1 }}
         >
           {status.state === "ok" || status.state === "error" ? status.msg : ""}
         </p>
